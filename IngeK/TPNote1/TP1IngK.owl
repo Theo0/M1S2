@@ -187,10 +187,10 @@
                                 <owl:onDatatype rdf:resource="&xsd;integer"/>
                                 <owl:withRestrictions rdf:parseType="Collection">
                                     <rdf:Description>
-                                        <xsd:maxExclusive rdf:datatype="&xsd;integer">61</xsd:maxExclusive>
+                                        <xsd:minExclusive rdf:datatype="&xsd;integer">17</xsd:minExclusive>
                                     </rdf:Description>
                                     <rdf:Description>
-                                        <xsd:minExclusive rdf:datatype="&xsd;integer">17</xsd:minExclusive>
+                                        <xsd:maxExclusive rdf:datatype="&xsd;integer">61</xsd:maxExclusive>
                                     </rdf:Description>
                                 </owl:withRestrictions>
                             </rdfs:Datatype>
@@ -393,6 +393,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/tchambon/ontologies/2015/0/untitled-ontology-2#JeuPC -->
+
+    <owl:Class rdf:about="&untitled-ontology-2;JeuPC">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&untitled-ontology-2;Jeu"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-2;hasPlateForme"/>
+                        <owl:hasValue>PC</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-2;JeuVideo"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/tchambon/ontologies/2015/0/untitled-ontology-2#JeuPleinAirMin3PersonnesMinAge8 -->
 
     <owl:Class rdf:about="&untitled-ontology-2;JeuPleinAirMin3PersonnesMinAge8">
@@ -527,7 +546,7 @@
     <owl:NamedIndividual rdf:about="&untitled-ontology-2;FIFA15">
         <rdf:type rdf:resource="&untitled-ontology-2;JeuDeSport"/>
         <hasNombreMinPersonnes rdf:datatype="&xsd;int">1</hasNombreMinPersonnes>
-        <hasNombreMaxPersonnes rdf:datatype="&xsd;string">4</hasNombreMaxPersonnes>
+        <hasNombreMaxPersonnes rdf:datatype="&xsd;int">4</hasNombreMaxPersonnes>
         <hasAgeMinimum rdf:datatype="&xsd;int">6</hasAgeMinimum>
         <hasAgeMaximum rdf:datatype="&xsd;int">80</hasAgeMaximum>
         <hasPlateForme rdf:datatype="&xsd;string">PC</hasPlateForme>
