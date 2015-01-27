@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY biblio "http://www.semanticweb.org/seb/ontologies/biblio#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/seb/ontologies/biblio#"
+     xml:base="http://www.semanticweb.org/seb/ontologies/biblio"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:biblio="http://www.semanticweb.org/seb/ontologies/biblio#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/seb/ontologies/biblio"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#aPourAuteur -->
+
+    <owl:ObjectProperty rdf:about="&biblio;aPourAuteur">
+        <rdfs:range rdf:resource="&biblio;Auteur"/>
+        <rdfs:domain rdf:resource="&biblio;Oeuvre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#estAuteurDe -->
+
+    <owl:ObjectProperty rdf:about="&biblio;estAuteurDe">
+        <rdfs:domain rdf:resource="&biblio;Auteur"/>
+        <rdfs:range rdf:resource="&biblio;Oeuvre"/>
+        <owl:inverseOf rdf:resource="&biblio;aPourAuteur"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#nombreDeVentes -->
+
+    <owl:DatatypeProperty rdf:about="&biblio;nombreDeVentes">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&biblio;Oeuvre"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Auteur -->
+
+    <owl:Class rdf:about="&biblio;Auteur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#BD -->
+
+    <owl:Class rdf:about="&biblio;BD">
+        <rdfs:subClassOf rdf:resource="&biblio;Oeuvre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#BestSeller -->
+
+    <owl:Class rdf:about="&biblio;BestSeller">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&biblio;Oeuvre"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&biblio;nombreDeVentes"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="&xsd;integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="&xsd;integer">30000</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Comics -->
+
+    <owl:Class rdf:about="&biblio;Comics">
+        <rdfs:subClassOf rdf:resource="&biblio;BD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Conte -->
+
+    <owl:Class rdf:about="&biblio;Conte">
+        <rdfs:subClassOf rdf:resource="&biblio;Livre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Dictionnaire -->
+
+    <owl:Class rdf:about="&biblio;Dictionnaire">
+        <rdfs:subClassOf rdf:resource="&biblio;Livre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Encyclopedie -->
+
+    <owl:Class rdf:about="&biblio;Encyclopedie">
+        <rdfs:subClassOf rdf:resource="&biblio;Livre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Essai -->
+
+    <owl:Class rdf:about="&biblio;Essai">
+        <rdfs:subClassOf rdf:resource="&biblio;Livre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Livre -->
+
+    <owl:Class rdf:about="&biblio;Livre">
+        <rdfs:subClassOf rdf:resource="&biblio;Oeuvre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Manga -->
+
+    <owl:Class rdf:about="&biblio;Manga">
+        <rdfs:subClassOf rdf:resource="&biblio;BD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Oeuvre -->
+
+    <owl:Class rdf:about="&biblio;Oeuvre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Roman -->
+
+    <owl:Class rdf:about="&biblio;Roman">
+        <rdfs:subClassOf rdf:resource="&biblio;Livre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Roman_Graphique -->
+
+    <owl:Class rdf:about="&biblio;Roman_Graphique">
+        <rdfs:subClassOf rdf:resource="&biblio;BD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#These -->
+
+    <owl:Class rdf:about="&biblio;These">
+        <rdfs:subClassOf rdf:resource="&biblio;Livre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#TopAuteur -->
+
+    <owl:Class rdf:about="&biblio;TopAuteur">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&biblio;estAuteurDe"/>
+                <owl:someValuesFrom rdf:resource="&biblio;BestSeller"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Candide -->
+
+    <owl:NamedIndividual rdf:about="&biblio;Candide">
+        <rdf:type rdf:resource="&biblio;Conte"/>
+        <nombreDeVentes rdf:datatype="&xsd;int">53000</nombreDeVentes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Das_Kapital -->
+
+    <owl:NamedIndividual rdf:about="&biblio;Das_Kapital">
+        <rdf:type rdf:resource="&biblio;Essai"/>
+        <nombreDeVentes rdf:datatype="&xsd;int">36500</nombreDeVentes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Edgar_Morin -->
+
+    <owl:NamedIndividual rdf:about="&biblio;Edgar_Morin">
+        <rdf:type rdf:resource="&biblio;Auteur"/>
+        <estAuteurDe rdf:resource="&biblio;La_Methode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Karl_Marx -->
+
+    <owl:NamedIndividual rdf:about="&biblio;Karl_Marx">
+        <rdf:type rdf:resource="&biblio;Auteur"/>
+        <estAuteurDe rdf:resource="&biblio;Das_Kapital"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#La_Methode -->
+
+    <owl:NamedIndividual rdf:about="&biblio;La_Methode">
+        <rdf:type rdf:resource="&biblio;Essai"/>
+        <nombreDeVentes rdf:datatype="&xsd;int">9800</nombreDeVentes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Les_Primates -->
+
+    <owl:NamedIndividual rdf:about="&biblio;Les_Primates">
+        <rdf:type rdf:resource="&biblio;Roman"/>
+        <nombreDeVentes rdf:datatype="&xsd;int">357</nombreDeVentes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Livre_1 -->
+
+    <owl:NamedIndividual rdf:about="&biblio;Livre_1">
+        <rdf:type rdf:resource="&biblio;BestSeller"/>
+        <nombreDeVentes rdf:datatype="&xsd;int">300000</nombreDeVentes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Luc_Random -->
+
+    <owl:NamedIndividual rdf:about="&biblio;Luc_Random">
+        <rdf:type rdf:resource="&biblio;Auteur"/>
+        <estAuteurDe rdf:resource="&biblio;Les_Primates"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/seb/ontologies/biblio#Voltaire -->
+
+    <owl:NamedIndividual rdf:about="&biblio;Voltaire">
+        <rdf:type rdf:resource="&biblio;Auteur"/>
+        <estAuteurDe rdf:resource="&biblio;Candide"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
