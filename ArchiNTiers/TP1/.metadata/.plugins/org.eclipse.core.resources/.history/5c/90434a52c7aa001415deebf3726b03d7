@@ -1,0 +1,13 @@
+package animal;
+
+public class Dossier {
+	String dossier;
+	
+	public Dossier(){
+		this.dossier = "Ceci est mon dossier";
+	}
+	
+	public String getDossier(){
+		return this.dossier;
+	}
+}

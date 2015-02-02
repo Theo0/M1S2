@@ -1,0 +1,8 @@
+package animalv2;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface ICabinet extends Remote {
+	String printAnimal() throws RemoteException;
+	public IDossier getDossier() throws RemoteException;
+}

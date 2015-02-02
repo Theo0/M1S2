@@ -1,0 +1,5 @@
+package animalv2;
+
+public interface ICabinet {
+
+}
