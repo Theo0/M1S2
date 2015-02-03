@@ -68,22 +68,21 @@ public:
 		cout << "Je suis un C : " << id << endl;
 	}
 
-	virtual void foo(U * t){
+	virtual void foo(U * u){
 		cout << "C.foo(U)" << endl;
 		whoamI();
-		t->whoamI();
+		u->whoamI();
 	}
 };
 
 
-
 int main(){
 
-	C * c = new C();
+	B * bc = new C();
 	T * t = new T();
 	A * a = new A();
 	U * u = new U();
 	B * b = new B();
 	cout << "APPEL ****************" << endl;
-	a->foo(t);
+	bc->foo(t);
 }
