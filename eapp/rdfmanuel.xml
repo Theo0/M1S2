@@ -3,11 +3,14 @@
 <rdf:RDF
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-xml:base="http://www.films.fr/#">
+xml:base="http://www.films.fr/#"
+xmlns:film="http://www.films.fr/film#"
+xmlns:personne="http://www.films.fr/personne#"
+xmlns:naissance="http://www.films.fr/naissance#"
+>
 
 <rdfs:Class rdf:ID="personne" />
-<rdfs:Class rdf:ID="film" />
-
+<rdfs:Class rdf:ID="films" />
 <rdfs:Class rdf:ID="realisateur">
   <rdfs:subClassOf rdf:resource="#personne"/>
 </rdfs:Class>
@@ -24,6 +27,66 @@ xml:base="http://www.films.fr/#">
   <rdfs:subClassOf rdf:resource="#personne"/>
 </rdfs:Class>
 
+<rdf:Description rdf:about="http://www.films.fr/#LeParrain">
+  <rdf:type rdf:resource="http://www.films.fr/#films" />
+</rdf:Description> 
+<rdf:Description rdf:about="http://www.films.fr/#Dracula">
+  <rdf:type rdf:resource="http://www.films.fr/#films" />
+</rdf:Description> 
+
+<rdf:Description rdf:about="http://www.films.fr/#FullMetalJacket">
+  <rdf:type rdf:resource="http://www.films.fr/#films" />
+  <film:theme>La guerre du vietnam</film:theme>
+</rdf:Description> 
+
+<rdf:Description rdf:about="http://www.films.fr/#ApocalypseNow">
+  <rdf:type rdf:resource="http://www.films.fr/#films" />
+  <film:theme>La guerre du vietnam</film:theme>
+  <film:sorti_en>1979</film:sorti_en>
+</rdf:Description> 
+
+<rdf:Description rdf:about="http://www.films.fr/#MarlonBrando">
+  <personne:acteur_de rdf:resource="http://www.films.fr/#ApocalypseNow" />
+  <rdf:type rdf:resource="http://www.films.fr/#acteur" />
+  <personne:nom>Marlon Brando</personne:nom>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.films.fr/#StanleyKubrick">
+  <personne:nom>Stanley Kubrick</personne:nom>
+  <personne:realise rdf:resource="http://www.films.fr/#FullMetalJacket" />
+  <personne:pere rdf:resource="http://www.films.fr/#VivianKubrick" />
+  <rdf:type rdf:resource="http://www.films.fr/#realisateur"/>
+  <rdf:type rdf:resource="http://www.films.fr/#scenariste"/>
+  <rdf:type rdf:resource="http://www.films.fr/#producteur"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.films.fr/#VivianKubrick">
+  <personne:nom>Vivian Kubrick</personne:nom>
+  <personne:fille rdf:resource="http://www.films.fr/#StanleyKubrick" />
+  <personne:compose rdf:resource="http://www.films.fr/#FullMetalJacket" />
+  <rdf:type rdf:resource="http://www.films.fr/#compositeur"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.films.fr/#Francis">
+  <personne:nom>Francis</personne:nom>
+  <personne:realise rdf:resource="http://www.films.fr/#LeParrain" />
+  <personne:realise rdf:resource="http://www.films.fr/#ApocalypseNow" />
+  <personne:realise rdf:resource="http://www.films.fr/#Dracula" />
+  <rdf:type rdf:resource="http://www.films.fr/#realisateur"/>
+  <rdf:type rdf:resource="http://www.films.fr/#scenariste"/>
+  <rdf:type rdf:resource="http://www.films.fr/#producteur"/>
+  <personne:est_ne rdf:resource="http://www.films.fr/#RessourceNaissance" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.films.fr/#RessourceNaissance">
+  <naissance:date>07/04/1939</naissance:date>
+  <naissance:ne_a rdf:resource="http://www.films.fr/#RessourceDetroit" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.films.fr/#RessourceDetroit">
+  <naissance:etat>Michigan</naissance:etat>
+  <naissance:ville>http://www.films.fr/#Detroit</naissance:ville>
+</rdf:Description>
 
 
 </rdf:RDF>
