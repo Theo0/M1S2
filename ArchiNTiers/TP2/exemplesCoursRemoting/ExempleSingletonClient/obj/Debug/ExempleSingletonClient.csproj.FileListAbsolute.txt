@@ -1,0 +1,9 @@
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\obj\Debug\ExempleSingletonClient.exe
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\obj\Debug\ExempleSingletonClient.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\bin\Debug\ExempleSingletonClient.exe
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\bin\Debug\ExempleSingletonClient.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\bin\Debug\ExempleSingleton.exe
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\bin\Debug\Share.dll
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\bin\Debug\ExempleSingleton.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\bin\Debug\Share.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExempleSingletonClient\obj\Debug\ExempleSingletonClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneClient\bin\Debug\AsynchroneClient.exe
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneClient\bin\Debug\AsynchroneClient.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneClient\bin\Debug\ServiceClass.dll
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneClient\bin\Debug\ServiceClass.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneClient\obj\Debug\AsynchroneClient.csprojResolveAssemblyReference.cache
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneClient\obj\Debug\AsynchroneClient.exe
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneClient\obj\Debug\AsynchroneClient.pdb

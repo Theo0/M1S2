@@ -1,0 +1,7 @@
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExemplePassageRef\bin\Debug\ExemplePassageRef.exe
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExemplePassageRef\bin\Debug\ExemplePassageRef.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExemplePassageRef\bin\Debug\Share.dll
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExemplePassageRef\bin\Debug\Share.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExemplePassageRef\obj\Debug\ExemplePassageRef.csprojResolveAssemblyReference.cache
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExemplePassageRef\obj\Debug\ExemplePassageRef.exe
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\ExemplePassageRef\obj\Debug\ExemplePassageRef.pdb

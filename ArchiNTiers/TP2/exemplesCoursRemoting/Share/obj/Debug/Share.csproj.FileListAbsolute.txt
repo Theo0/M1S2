@@ -1,0 +1,4 @@
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\Share\bin\Debug\Share.dll
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\Share\bin\Debug\Share.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\Share\obj\Debug\Share.dll
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\Share\obj\Debug\Share.pdb

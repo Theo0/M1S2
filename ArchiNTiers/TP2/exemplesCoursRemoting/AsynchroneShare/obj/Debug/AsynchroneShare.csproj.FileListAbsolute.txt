@@ -1,0 +1,4 @@
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneShare\bin\Debug\ServiceClass.dll
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneShare\bin\Debug\ServiceClass.pdb
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneShare\obj\Debug\ServiceClass.dll
+M:\Documents\M1S2\ArchiNTiers\TP2\exemplesCoursRemoting\AsynchroneShare\obj\Debug\ServiceClass.pdb
