@@ -1,0 +1,28 @@
+package animalv2;
+import java.rmi.registry.Registry;
+import java.rmi.registry.LocateRegistry;
+
+public class Server {
+	
+	public Server(){}
+	
+	public static void main(String args []){
+		
+		try{
+			new AnimalImpl("animal1", "maitre1");
+			new AnimalImpl("animal2", "maitre2");
+			new AnimalImpl("animal3", "maitre3");
+			new AnimalImpl("animal4", "maitre4");
+			CabinetImpl obj = new CabinetImpl();
+			Registry registry = LocateRegistry.getRegistry();
+			if(registry == null){System.err.println("Registry Not Found");}
+			else{
+				registry.bind("cabinet", obj);
+				System.out.println("Server ready");
+			}
+		}catch (Exception e){
+			System.err.println("Server exception : " + e.toString());
+			e.printStackTrace();
+		}
+	}
+}

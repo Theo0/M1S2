@@ -1,0 +1,33 @@
+package animalv2;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.ArrayList;
+
+
+public class CabinetImpl extends UnicastRemoteObject implements ICabinet{
+
+	ArrayList<AnimalImpl> listeAnimaux;
+	
+	public CabinetImpl() throws RemoteException {
+		this.listeAnimaux = new ArrayList<AnimalImpl> ();
+	}
+	
+	public CabinetImpl(ArrayList<AnimalImpl> animaux) throws RemoteException{
+		this.listeAnimaux = animaux;
+	}
+
+	@Override
+	public void recherche(String s) throws RemoteException {
+		for(AnimalImpl an : listeAnimaux){
+			if(an.nom == s){
+				System.out.println(an);
+			}
+		}
+		System.out.println(listeAnimaux.get(0));
+	}
+	
+	
+	
+	
+}
