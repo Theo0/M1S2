@@ -1,0 +1,15 @@
+package covariance;
+
+import java.util.ArrayList;
+
+public class Graph extends Racine {
+	
+	protected ArrayList<Sommet> ListeSommets;
+	protected ArrayList<Arete> ListeAretes;
+	
+	public Graph(){
+		ListeSommets = new ArrayList<Sommet>();
+		ListeAretes = new ArrayList<Arete>();
+	}
+	
+}

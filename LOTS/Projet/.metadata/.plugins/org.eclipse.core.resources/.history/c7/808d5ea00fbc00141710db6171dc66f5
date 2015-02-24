@@ -1,0 +1,11 @@
+package covariance;
+
+import java.util.ArrayList;
+
+public class Arete {
+	protected String nomArete;
+	protected Graph graphe;
+	protected ArrayList<Sommet> sommets;
+	
+	
+}
