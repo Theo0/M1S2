@@ -1,0 +1,48 @@
+package covariance;
+
+import java.util.ArrayList;
+
+public class Graph extends Racine {
+	
+	protected String nomGraphe;
+	protected ArrayList<Sommet> ListeSommets;
+	protected ArrayList<Arete> ListeAretes;
+	
+	public Graph(){
+		this.nomGraphe = "GrapheSansNom";
+		this.ListeSommets = new ArrayList<Sommet>();
+		this.ListeAretes = new ArrayList<Arete>();
+	}
+	
+	public Graph(String n){
+		this.nomGraphe = n;
+		this.ListeSommets = new ArrayList<Sommet>();
+		this.ListeAretes = new ArrayList<Arete>();
+	}
+	
+	public String toString(){
+		return "Sommets : " + ListeSommets.size() + "     aretes : " + ListeAretes.size();
+	}
+	
+	public void ajouterSommet(Sommet s){
+ 	
+ 		
+ 		if(!ListeSommets.contains(s)){
+ 			ListeSommets.add(s);	
+ 		}
+ 		else{
+ 			System.out.println("Sommet : " + s + "déjà présent dans le graphe " + this);
+ 		}
+ 	}
+				
+
+	
+	public void ajouterArete(Arete a){
+		this.ListeAretes.add(a);
+	}
+	
+	
+	
+	/***** ACCESSEURS ****/
+	
+}

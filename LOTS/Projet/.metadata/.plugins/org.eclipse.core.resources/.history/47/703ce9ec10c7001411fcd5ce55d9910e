@@ -1,0 +1,7 @@
+package covariance.Chimie;
+
+import covariance.Arete;
+
+public class Liaison extends Arete{
+
+}

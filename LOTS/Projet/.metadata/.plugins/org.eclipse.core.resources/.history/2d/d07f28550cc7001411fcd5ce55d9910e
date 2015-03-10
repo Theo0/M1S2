@@ -1,0 +1,7 @@
+package covariance.Chimie;
+
+import covariance.Graph;
+
+public class Molecule extends Graph{
+	
+}

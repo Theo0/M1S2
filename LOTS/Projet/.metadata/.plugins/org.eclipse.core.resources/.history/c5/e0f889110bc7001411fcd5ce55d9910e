@@ -1,0 +1,13 @@
+package covariance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Graph g1 = new Graph();
+		Sommet s1 = new Sommet();
+		Sommet s2 = new Sommet();
+		Arete a = new Arete();
+	}
+
+}

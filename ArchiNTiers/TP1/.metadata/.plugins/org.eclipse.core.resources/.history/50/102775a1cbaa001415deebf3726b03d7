@@ -1,9 +1,0 @@
-package animal;
-import java.rmi.Remote;
-import java.rmi.RemoteException;
-
-
-public interface IDossier extends Remote{	
-	public String getDossier() throws RemoteException;
-
-}

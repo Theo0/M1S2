@@ -1,0 +1,31 @@
+package covariance.Chimie;
+
+import covariance.Arete;
+import covariance.Graph;
+import covariance.Sommet;
+
+public class Atome extends Sommet {
+	
+	public Atome(){
+		super();
+	}
+	
+	public void setGraphe(Graph g){
+		if(g instanceof Molecule){
+		this.graphe = (Molecule)g;
+		}
+	}
+	
+	public void setGraphe(Molecule m){
+		this.graphe = m;
+	}
+	
+	public void addArete(Arete a){
+		if(!aretes.contains(a)){
+			aretes.add(a);
+		}
+		else{
+			System.out.println("Erreur : cette arrete est déjà ajoutée" + a);
+		}
+	}
+}

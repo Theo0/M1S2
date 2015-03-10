@@ -1,0 +1,7 @@
+package covariance.Chimie;
+
+import covariance.Sommet;
+
+public class Atome extends Sommet {
+
+}

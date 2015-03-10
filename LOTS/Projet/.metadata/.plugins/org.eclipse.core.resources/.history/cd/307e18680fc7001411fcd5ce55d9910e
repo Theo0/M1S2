@@ -1,0 +1,20 @@
+package covariance;
+
+import covariance.Chimie.Molecule;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Graph g1 = new Graph();
+		Sommet s1 = new Sommet();
+		Sommet s2 = new Sommet();
+		Arete a = new Arete();
+	
+		g1.ajouterSommet(s1);
+		g1.ajouterSommet(s2);
+		g1.ajouterArete(a, s1, s2);
+		g1.afficherGraphe();
+	}
+
+}

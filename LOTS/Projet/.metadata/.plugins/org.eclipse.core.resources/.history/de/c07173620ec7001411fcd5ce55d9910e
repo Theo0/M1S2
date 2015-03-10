@@ -1,0 +1,24 @@
+package covariance.Chimie;
+
+import covariance.Graph;
+import covariance.Sommet;
+
+public class Molecule extends Graph{
+	
+	public Molecule(){
+		super();
+	}
+	
+	public void ajouterSommet(Sommet s){
+		if(s instanceof Atome){
+			super.ajouterSommet(Atome(s));
+		}
+		else{
+			System.out.println("ERREUR : On ne peut ajouter que des atomes à une molécule");
+		}
+	}
+	
+	public void ajouterSommet(Atome a){
+		super.ajouterSommet(a);
+	}
+}

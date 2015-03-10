@@ -1,0 +1,17 @@
+package covariance.Chimie;
+
+import covariance.Graph;
+import covariance.Sommet;
+
+public class Molecule extends Graph{
+	
+	public Molecule(){
+		super();
+	}
+	
+	public void ajouterSommet(Sommet s){
+		if(s instanceof Atome){
+			super.ajouterSommet(s);
+		}
+	}
+}

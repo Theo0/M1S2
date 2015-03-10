@@ -1,0 +1,31 @@
+package covariance.Chimie;
+
+import covariance.Arete;
+import covariance.Graph;
+import covariance.Sommet;
+
+public class Liaison extends Arete{
+	
+	public Liaison(){
+		super();
+	}
+	
+	public void setSommets(Sommet s1, Sommet s2){
+		if(s1 instanceof Atome && s2 instanceof Atome){
+			setSommets((Atome)s1, (Atome)s2);
+		}
+	}
+	
+	public void setSommets(Atome a1, Atome a2){
+
+	}
+	
+	public void setGraphe(Graph g){
+		
+	}
+	
+	public void setGraphe(Molecule m){
+		
+	}
+
+}

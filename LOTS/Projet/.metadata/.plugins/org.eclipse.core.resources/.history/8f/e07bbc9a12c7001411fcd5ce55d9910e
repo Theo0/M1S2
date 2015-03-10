@@ -1,0 +1,38 @@
+package covariance.Reseau;
+
+import covariance.Arete;
+import covariance.Graph;
+import covariance.Sommet;
+
+public class Noeud extends Sommet {
+	
+	public Noeud(){
+		super();
+	}
+	
+	public void setGraphe(Graph g){
+		if(g instanceof Molecule){
+		setGraphe((Molecule)g);
+		}
+		else{
+			System.out.println("ERREUR : On ne peut ajouter que des Atome a une molecule");
+		}
+	}
+	
+	public void setGraphe(Molecule m){
+		super.setGraphe(m);
+	}
+	
+	public void addArete(Arete a){
+		if(a instanceof Lien){
+			addArete((Lien)a);
+		}
+		else{
+			System.out.println("ERREUR : On ne peut ajouter que des Liaison a une molecule");
+		}
+	}
+	
+	public void addArete(Lien l){
+		super.addArete(l);
+	}
+}
