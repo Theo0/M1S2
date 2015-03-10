@@ -1,7 +1,0 @@
-package covariance;
-
-public class Graph extends Racine {
-	
-	
-	
-}
