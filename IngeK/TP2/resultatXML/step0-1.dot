@@ -1,0 +1,8 @@
+digraph G { 
+	rankdir=BT;
+1 [shape=record,label="{Concept_Beatles_2||Ringo\n}"];
+2 [shape=record,label="{Concept_Beatles_0|groupLeader\n|John\nPaul\n}"];
+3 [shape=record,label="{Concept_Beatles_1|songWriter\n|George\n}"];
+	3 -> 1
+	2 -> 3
+}

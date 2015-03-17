@@ -1,0 +1,21 @@
+digraph G { 
+	rankdir=BT;
+1 [shape=record,label="{Concept_Beatles_2|exist loves(Concept_animals_8)\nexist loves(Concept_animals_7)\n|}"];
+2 [shape=record,label="{Concept_Beatles_0|groupLeader\n|John\n}"];
+3 [shape=record,label="{Concept_Beatles_1|songWriter\nexist loves(Concept_animals_4)\nexist loves(Concept_animals_6)\nexist loves(Concept_animals_2)\nexist loves(Concept_animals_1)\n|}"];
+4 [shape=record,label="{Concept_Beatles_4||Paul\n}"];
+5 [shape=record,label="{Concept_Beatles_5|exist loves(Concept_animals_3)\n|Ringo\n}"];
+6 [shape=record,label="{Concept_Beatles_3|exist loves(Concept_animals_0)\n|}"];
+7 [shape=record,label="{Concept_Beatles_6||George\n}"];
+8 [shape=record,label="{Concept_Beatles_7|exist loves(Concept_animals_5)\n|}"];
+	8 -> 1
+	3 -> 1
+	4 -> 2
+	2 -> 3
+	7 -> 3
+	6 -> 4
+	4 -> 5
+	4 -> 7
+	7 -> 8
+	5 -> 8
+}

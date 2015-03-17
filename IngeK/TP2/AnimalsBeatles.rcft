@@ -1,0 +1,25 @@
+FormalContext animals
+|		|flying	|nocturnal	|feathered	|migratory	|withcrest	|withmembrane	|
+|flyingSquirrel	|x		|		|		|		|		|x		|
+|bat	|x		|x		|		|		|		|x		|
+|ostrich	|		|		|x		|		|		|		|
+|flamingo	|x		|		|x		|x		|		|		|
+|chicken	|x		|		|x		|		|x		|		|
+
+FormalContext Beatles
+|		|groupLeader	|songWriter	|
+|John	|x		|x		|
+|George	|		|x		|
+|Paul	|x		|x		|
+|Ringo	|		|		|
+
+RelationalContext loves
+source Beatles
+target animals
+scaling org.rcaexplore.scaling.ExistentialScaling 
+|		|flyingSquirrel	|bat	|ostrich	|flamingo	|chicken	|
+|John	|		|		|		|x		|x		|
+|George	|x		|		|		|x		|x		|
+|Paul	|		|x		|		|x		|x		|
+|Ringo	|x		|x		|		|		|		|
+

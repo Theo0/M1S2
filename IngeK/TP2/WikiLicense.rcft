@@ -1,0 +1,26 @@
+FormalContext wikis
+algo fca
+|                       |OpenSource|MultiLanguage|
+|BlueSpice for MediaWiki|x         |x            |
+|BrainKeeper            |          |x            |
+|eXoPlatform            |x         |x            |
+|FlexWiki               |x         |             |
+|IkiWiki                |x         |x            |
+
+FormalContext Database
+algo fca
+|                    |
+|ApacheDerby         |
+|Microsoft SQL Server|
+|MySQL               |
+|Oracle              |
+|SQLite              |
+
+FormalContext License
+algo fca
+|                     |Link with code using a different License|
+|GNU AGPL             |x                                       |
+|GPL                  |                                        |
+|GLPL                 |x                                       |
+|Open Software Licence|x                                       |
+

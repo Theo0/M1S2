@@ -1,0 +1,38 @@
+FormalContext animals
+algo fca
+|              |flying|nocturnal|feathered|migratory|withcrest|withmembrane|
+|flyingSquirrel|x     |         |         |         |         |x           |
+|bat           |x     |x        |         |         |         |x           |
+|ostrich       |      |         |x        |         |         |            |
+|flamingo      |x     |         |x        |x        |         |            |
+|chicken       |x     |         |x        |         |x        |            |
+
+FormalContext Beatles
+algo fca
+|      |groupLeader|songWriter|
+|John  |x          |x         |
+|George|           |x         |
+|Paul  |x          |x         |
+|Ringo |           |          |
+
+RelationalContext isLovedBy
+source animals
+target Beatles
+scaling exist 
+|              |John|George|Paul|Ringo|
+|flyingSquirrel|    |x     |    |x    |
+|bat           |    |      |x   |x    |
+|ostrich       |    |      |    |     |
+|flamingo      |x   |x     |x   |     |
+|chicken       |x   |x     |x   |     |
+
+RelationalContext loves
+source Beatles
+target animals
+scaling exist 
+|      |flyingSquirrel|bat|ostrich|flamingo|chicken|
+|John  |              |   |       |x       |x      |
+|George|x             |   |       |x       |x      |
+|Paul  |              |x  |       |x       |x      |
+|Ringo |x             |x  |       |        |       |
+

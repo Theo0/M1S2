@@ -1,0 +1,272 @@
+<RCAExplore_Document>
+	<Step nb="0">
+		<Lattice numberObj="5" numberAtt="2" numberCpt="4" >
+			<Config algo="fca">
+			</Config>
+			<Name>wikis</Name>
+			<Object>BlueSpice for MediaWiki</Object>
+			<Object>BrainKeeper</Object>
+			<Object>eXoPlatform</Object>
+			<Object>FlexWiki</Object>
+			<Object>IkiWiki</Object>
+			<Attribute>OpenSource</Attribute>
+			<Attribute>MultiLanguage</Attribute>
+			<Concept>
+				<ID>Concept_wikis_3</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_1</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_0</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_1</Concept_Ref>
+					<Concept_Ref>Concept_wikis_2</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_2</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="5" numberAtt="0" numberCpt="1" >
+			<Config algo="fca">
+			</Config>
+			<Name>Database</Name>
+			<Object>ApacheDerby</Object>
+			<Object>Microsoft SQL Server</Object>
+			<Object>MySQL</Object>
+			<Object>Oracle</Object>
+			<Object>SQLite</Object>
+			<Concept>
+				<ID>Concept_Database_0</ID>
+				<Extent>
+					<Object_Ref>ApacheDerby</Object_Ref>
+					<Object_Ref>Microsoft SQL Server</Object_Ref>
+					<Object_Ref>MySQL</Object_Ref>
+					<Object_Ref>Oracle</Object_Ref>
+					<Object_Ref>SQLite</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="4" numberAtt="1" numberCpt="2" >
+			<Config algo="fca">
+			</Config>
+			<Name>License</Name>
+			<Object>GNU AGPL</Object>
+			<Object>GPL</Object>
+			<Object>GLPL</Object>
+			<Object>Open Software Licence</Object>
+			<Attribute>Link with code using a different License</Attribute>
+			<Concept>
+				<ID>Concept_License_1</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>GPL</Object_Ref>
+					<Object_Ref>GLPL</Object_Ref>
+					<Object_Ref>Open Software Licence</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_License_0</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>GLPL</Object_Ref>
+					<Object_Ref>Open Software Licence</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>Link with code using a different License</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_License_1</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+	</Step >
+	<Step nb="1">
+		<Lattice numberObj="5" numberAtt="2" numberCpt="4" >
+			<Config algo="fca">
+			</Config>
+			<Name>wikis</Name>
+			<Object>BlueSpice for MediaWiki</Object>
+			<Object>BrainKeeper</Object>
+			<Object>eXoPlatform</Object>
+			<Object>FlexWiki</Object>
+			<Object>IkiWiki</Object>
+			<Attribute>OpenSource</Attribute>
+			<Attribute>MultiLanguage</Attribute>
+			<Concept>
+				<ID>Concept_wikis_3</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_1</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_0</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_1</Concept_Ref>
+					<Concept_Ref>Concept_wikis_2</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_2</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="5" numberAtt="0" numberCpt="1" >
+			<Config algo="fca">
+			</Config>
+			<Name>Database</Name>
+			<Object>ApacheDerby</Object>
+			<Object>Microsoft SQL Server</Object>
+			<Object>MySQL</Object>
+			<Object>Oracle</Object>
+			<Object>SQLite</Object>
+			<Concept>
+				<ID>Concept_Database_0</ID>
+				<Extent>
+					<Object_Ref>ApacheDerby</Object_Ref>
+					<Object_Ref>Microsoft SQL Server</Object_Ref>
+					<Object_Ref>MySQL</Object_Ref>
+					<Object_Ref>Oracle</Object_Ref>
+					<Object_Ref>SQLite</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="4" numberAtt="1" numberCpt="2" >
+			<Config algo="fca">
+			</Config>
+			<Name>License</Name>
+			<Object>GNU AGPL</Object>
+			<Object>GPL</Object>
+			<Object>GLPL</Object>
+			<Object>Open Software Licence</Object>
+			<Attribute>Link with code using a different License</Attribute>
+			<Concept>
+				<ID>Concept_License_1</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>GPL</Object_Ref>
+					<Object_Ref>GLPL</Object_Ref>
+					<Object_Ref>Open Software Licence</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_License_0</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>GLPL</Object_Ref>
+					<Object_Ref>Open Software Licence</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>Link with code using a different License</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_License_1</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+	</Step >
+</RCAExplore_Document>

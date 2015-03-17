@@ -1,0 +1,23 @@
+digraph G { 
+	rankdir=BT;
+1 [shape=record,label="{Concept_animals_8||}"];
+2 [shape=record,label="{Concept_animals_7|flying\n|}"];
+3 [shape=record,label="{Concept_animals_3|nocturnal\n|bat\n}"];
+4 [shape=record,label="{Concept_animals_0||}"];
+5 [shape=record,label="{Concept_animals_4||}"];
+6 [shape=record,label="{Concept_animals_6|feathered\n|ostrich\n}"];
+7 [shape=record,label="{Concept_animals_2|migratory\n|flamingo\n}"];
+8 [shape=record,label="{Concept_animals_1|withcrest\n|chicken\n}"];
+9 [shape=record,label="{Concept_animals_5|withmembrane\n|flyingSquirrel\n}"];
+	2 -> 1
+	6 -> 1
+	9 -> 2
+	5 -> 2
+	4 -> 3
+	7 -> 5
+	8 -> 5
+	5 -> 6
+	4 -> 7
+	4 -> 8
+	3 -> 9
+}

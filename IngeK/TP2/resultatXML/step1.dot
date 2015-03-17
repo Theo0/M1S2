@@ -1,0 +1,47 @@
+digraph G { 
+	rankdir=BT;
+subgraph animals { 
+label="animals";
+1 [shape=record,label="{Concept_animals_8||}"];
+2 [shape=record,label="{Concept_animals_7|flying\n|}"];
+3 [shape=record,label="{Concept_animals_3|nocturnal\n|bat\n}"];
+4 [shape=record,label="{Concept_animals_0||}"];
+5 [shape=record,label="{Concept_animals_4||}"];
+6 [shape=record,label="{Concept_animals_6|feathered\n|ostrich\n}"];
+7 [shape=record,label="{Concept_animals_2|migratory\n|flamingo\n}"];
+8 [shape=record,label="{Concept_animals_1|withcrest\n|chicken\n}"];
+9 [shape=record,label="{Concept_animals_5|withmembrane\n|flyingSquirrel\n}"];
+	2 -> 1
+	6 -> 1
+	9 -> 2
+	5 -> 2
+	4 -> 3
+	7 -> 5
+	8 -> 5
+	5 -> 6
+	4 -> 7
+	4 -> 8
+	3 -> 9
+}
+subgraph Beatles { 
+label="Beatles";
+10 [shape=record,label="{Concept_Beatles_2|exist loves(Concept_animals_8)\nexist loves(Concept_animals_7)\n|}"];
+11 [shape=record,label="{Concept_Beatles_0|groupLeader\n|John\n}"];
+12 [shape=record,label="{Concept_Beatles_1|songWriter\nexist loves(Concept_animals_4)\nexist loves(Concept_animals_6)\nexist loves(Concept_animals_2)\nexist loves(Concept_animals_1)\n|}"];
+13 [shape=record,label="{Concept_Beatles_4||Paul\n}"];
+14 [shape=record,label="{Concept_Beatles_5|exist loves(Concept_animals_3)\n|Ringo\n}"];
+15 [shape=record,label="{Concept_Beatles_3|exist loves(Concept_animals_0)\n|}"];
+16 [shape=record,label="{Concept_Beatles_6||George\n}"];
+17 [shape=record,label="{Concept_Beatles_7|exist loves(Concept_animals_5)\n|}"];
+	17 -> 10
+	12 -> 10
+	13 -> 11
+	11 -> 12
+	16 -> 12
+	15 -> 13
+	13 -> 14
+	13 -> 16
+	16 -> 17
+	14 -> 17
+}
+}

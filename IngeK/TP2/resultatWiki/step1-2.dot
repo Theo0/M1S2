@@ -1,0 +1,6 @@
+digraph G { 
+	rankdir=BT;
+1 [shape=record,label="{Concept_License_1||GPL\n}"];
+2 [shape=record,label="{Concept_License_0|Link with code using a different License\n|GNU AGPL\nGLPL\nOpen Software Licence\n}"];
+	2 -> 1
+}
