@@ -1,5 +1,0 @@
-package covariance.Chimie;
-
-public class Atome extends Sommet {
-
-}

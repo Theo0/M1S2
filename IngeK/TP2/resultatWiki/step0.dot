@@ -13,12 +13,12 @@ label="wikis";
 }
 subgraph Database { 
 label="Database";
-5 [shape=record,label="{Concept_Database_0||ApacheDerby\nMicrosoft SQL Server\nMySQL\nOracle\nSQLite\n}"];
+5 [shape=record,label="{Concept_Database_0||ApacheDerby\nMicrosoft SQL Server\nMySQL\nOracle\nPostGreSQL\n}"];
 }
 subgraph License { 
 label="License";
-6 [shape=record,label="{Concept_License_1||GPL\n}"];
-7 [shape=record,label="{Concept_License_0|Link with code using a different License\n|GNU AGPL\nGLPL\nOpen Software Licence\n}"];
+6 [shape=record,label="{Concept_License_1||GPL\nApache License\n}"];
+7 [shape=record,label="{Concept_License_0|Link with code using a different License\n|GNU AGPL\nLGPL\nProprietary\nPublic Domain\n}"];
 	7 -> 6
 }
 }
