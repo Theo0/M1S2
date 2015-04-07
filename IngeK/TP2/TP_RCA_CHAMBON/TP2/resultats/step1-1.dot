@@ -1,0 +1,6 @@
+digraph G { 
+	rankdir=BT;
+1 [shape=record,label="{Concept_Database_0|exist sgbdALicense(Concept_License_1)\n|ApacheDerby\n}"];
+2 [shape=record,label="{Concept_Database_1|exist sgbdALicense(Concept_License_0)\n|Microsoft SQL Server\nMySQL\nOracle\nPostGreSQL\n}"];
+	2 -> 1
+}

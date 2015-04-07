@@ -1,0 +1,73 @@
+B
+
+11
+46
+
+Domino's Orientale
+Domino's Margherita
+Domino's 4 Fromages
+Domino's Magic Saumon
+Charlotte Calzone
+Charlotte Chorizo
+Charlotte Australienne
+Charlotte Mediterranéenne
+Charlotte Grecque
+Charlotte Saumon
+Charlotte Fruits de Mer
+Prix < 10
+10 < Prix <= 12
+12 < Prix <= 14
+14 < Prix <= 16
+16 < Prix
+Petite
+Moyenne
+Grande
+Blanche
+Rouge
+Barbecue
+Pate Fine
+Pate Classique
+Pate Epaisse
+Calzone
+Produit Animal
+Viande
+Merguez
+Jambon
+Chorizo
+Poissons
+Saumon
+Moules
+Calamars
+Crevettes
+Oeuf
+Fromage
+Emmental
+Mozzarella
+Chevre
+Fourme d'Ambert
+Vegetal
+Legumes
+Poivrons
+Aubergines
+Courgettes
+Champignons
+Oignons
+Tomates
+Fruits
+Ananas
+Epices
+Persillade
+Aneth
+Herbes de Provence
+Basilic
+..X...X..X..X..XXX........X.X..XXX...X........
+..X....X.X.X...X..........X.X.................
+...X..X.X....X.X..........XXXXX...............
+...X...XX..X...X....XX....X.X..X......XX.X.X..
+....X..X.X..X.XXX.X.......X.X..XX...X.........
+X....X...X..X..XX..X......X.X..XXX............
+.X....X..X..X..XX.X.......X.X..........XX.....
+X....X...X..X..X..........X.XX.XXXXX.....X..X.
+....X..X.X..X..X..........X.X..XXXXX.........X
+...X..X.X...X..X....XX....X.X.............X...
+....X..X.X..X..X....X.XXX.X.X.............X...
