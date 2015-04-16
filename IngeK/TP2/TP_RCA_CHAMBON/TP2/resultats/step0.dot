@@ -1,0 +1,24 @@
+digraph G { 
+	rankdir=BT;
+subgraph wikis { 
+label="wikis";
+5 [shape=record,label="{Concept_wikis_3||}"];
+2 [shape=record,label="{Concept_wikis_1|OpenSource\n|FlexWiki\n}"];
+3 [shape=record,label="{Concept_wikis_0||BlueSpice for MediaWiki\neXoPlatform\nIkiWiki\n}"];
+4 [shape=record,label="{Concept_wikis_2|MultiLanguage\n|BrainKeeper\n}"];
+	2 -> 5
+	4 -> 5
+	3 -> 2
+	3 -> 4
+}
+subgraph Database { 
+label="Database";
+5 [shape=record,label="{Concept_Database_0||ApacheDerby\nMicrosoft SQL Server\nMySQL\nOracle\nPostGreSQL\n}"];
+}
+subgraph License { 
+label="License";
+6 [shape=record,label="{Concept_License_1||GPL\nApache License\n}"];
+7 [shape=record,label="{Concept_License_0|Link with code using a different License\n|GNU AGPL\nLGPL\nProprietary\nPublic Domain\n}"];
+	7 -> 6
+}
+}

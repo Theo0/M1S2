@@ -1,0 +1,645 @@
+<RCAExplore_Document>
+	<Step nb="0">
+		<Lattice numberObj="5" numberAtt="2" numberCpt="4" >
+			<Config algo="fca">
+			</Config>
+			<Name>wikis</Name>
+			<Object>BlueSpice for MediaWiki</Object>
+			<Object>BrainKeeper</Object>
+			<Object>eXoPlatform</Object>
+			<Object>FlexWiki</Object>
+			<Object>IkiWiki</Object>
+			<Attribute>OpenSource</Attribute>
+			<Attribute>MultiLanguage</Attribute>
+			<Concept>
+				<ID>Concept_wikis_3</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_1</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_0</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_1</Concept_Ref>
+					<Concept_Ref>Concept_wikis_2</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_2</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="5" numberAtt="0" numberCpt="1" >
+			<Config algo="fca">
+			</Config>
+			<Name>Database</Name>
+			<Object>ApacheDerby</Object>
+			<Object>Microsoft SQL Server</Object>
+			<Object>MySQL</Object>
+			<Object>Oracle</Object>
+			<Object>PostGreSQL</Object>
+			<Concept>
+				<ID>Concept_Database_0</ID>
+				<Extent>
+					<Object_Ref>ApacheDerby</Object_Ref>
+					<Object_Ref>Microsoft SQL Server</Object_Ref>
+					<Object_Ref>MySQL</Object_Ref>
+					<Object_Ref>Oracle</Object_Ref>
+					<Object_Ref>PostGreSQL</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="6" numberAtt="1" numberCpt="2" >
+			<Config algo="fca">
+			</Config>
+			<Name>License</Name>
+			<Object>GNU AGPL</Object>
+			<Object>GPL</Object>
+			<Object>LGPL</Object>
+			<Object>Proprietary</Object>
+			<Object>Apache License</Object>
+			<Object>Public Domain</Object>
+			<Attribute>Link with code using a different License</Attribute>
+			<Concept>
+				<ID>Concept_License_1</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>GPL</Object_Ref>
+					<Object_Ref>LGPL</Object_Ref>
+					<Object_Ref>Proprietary</Object_Ref>
+					<Object_Ref>Apache License</Object_Ref>
+					<Object_Ref>Public Domain</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_License_0</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>LGPL</Object_Ref>
+					<Object_Ref>Proprietary</Object_Ref>
+					<Object_Ref>Public Domain</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>Link with code using a different License</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_License_1</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+	</Step >
+	<Step nb="1">
+		<Lattice numberObj="5" numberAtt="5" numberCpt="8" >
+			<Config algo="fca">
+				<Relation name="utiliseSGBD">
+					<Scaling>exist</Scaling>
+				</Relation>
+				<Relation name="aLicence">
+					<Scaling>exist</Scaling>
+				</Relation>
+			</Config>
+			<Name>wikis</Name>
+			<Object>BlueSpice for MediaWiki</Object>
+			<Object>BrainKeeper</Object>
+			<Object>eXoPlatform</Object>
+			<Object>FlexWiki</Object>
+			<Object>IkiWiki</Object>
+			<Attribute>OpenSource</Attribute>
+			<Attribute>MultiLanguage</Attribute>
+			<RelationalAttribute relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute>
+			<RelationalAttribute relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute>
+			<RelationalAttribute relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute>
+			<Concept>
+				<ID>Concept_wikis_3</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_1</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_0</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_1</Concept_Ref>
+					<Concept_Ref>Concept_wikis_2</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_2</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_4</ID>
+				<Extent>
+					<Object_Ref>eXoPlatform</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_0</Concept_Ref>
+					<Concept_Ref>Concept_wikis_6</Concept_Ref>
+					<Concept_Ref>Concept_wikis_5</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_5</ID>
+				<Extent>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_1</Concept_Ref>
+					<Concept_Ref>Concept_wikis_7</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_6</ID>
+				<Extent>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_7</Concept_Ref>
+					<Concept_Ref>Concept_wikis_2</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_7</ID>
+				<Extent>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="5" numberAtt="2" numberCpt="2" >
+			<Config algo="fca">
+				<Relation name="sgbdALicense">
+					<Scaling>exist</Scaling>
+				</Relation>
+			</Config>
+			<Name>Database</Name>
+			<Object>ApacheDerby</Object>
+			<Object>Microsoft SQL Server</Object>
+			<Object>MySQL</Object>
+			<Object>Oracle</Object>
+			<Object>PostGreSQL</Object>
+			<RelationalAttribute relation="sgbdALicense" scaling="exist">Concept_License_1</RelationalAttribute>
+			<RelationalAttribute relation="sgbdALicense" scaling="exist">Concept_License_0</RelationalAttribute>
+			<Concept>
+				<ID>Concept_Database_0</ID>
+				<Extent>
+					<Object_Ref>ApacheDerby</Object_Ref>
+					<Object_Ref>Microsoft SQL Server</Object_Ref>
+					<Object_Ref>MySQL</Object_Ref>
+					<Object_Ref>Oracle</Object_Ref>
+					<Object_Ref>PostGreSQL</Object_Ref>
+				</Extent>
+				<Intent>
+					<RelationalAttribute_Ref relation="sgbdALicense" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Database_1</ID>
+				<Extent>
+					<Object_Ref>Microsoft SQL Server</Object_Ref>
+					<Object_Ref>MySQL</Object_Ref>
+					<Object_Ref>Oracle</Object_Ref>
+					<Object_Ref>PostGreSQL</Object_Ref>
+				</Extent>
+				<Intent>
+					<RelationalAttribute_Ref relation="sgbdALicense" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="sgbdALicense" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Database_0</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="6" numberAtt="1" numberCpt="2" >
+			<Config algo="fca">
+			</Config>
+			<Name>License</Name>
+			<Object>GNU AGPL</Object>
+			<Object>GPL</Object>
+			<Object>LGPL</Object>
+			<Object>Proprietary</Object>
+			<Object>Apache License</Object>
+			<Object>Public Domain</Object>
+			<Attribute>Link with code using a different License</Attribute>
+			<Concept>
+				<ID>Concept_License_1</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>GPL</Object_Ref>
+					<Object_Ref>LGPL</Object_Ref>
+					<Object_Ref>Proprietary</Object_Ref>
+					<Object_Ref>Apache License</Object_Ref>
+					<Object_Ref>Public Domain</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_License_0</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>LGPL</Object_Ref>
+					<Object_Ref>Proprietary</Object_Ref>
+					<Object_Ref>Public Domain</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>Link with code using a different License</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_License_1</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+	</Step >
+	<Step nb="2">
+		<Lattice numberObj="5" numberAtt="6" numberCpt="8" >
+			<Config algo="fca">
+				<Relation name="utiliseSGBD">
+					<Scaling>exist</Scaling>
+				</Relation>
+				<Relation name="aLicence">
+					<Scaling>exist</Scaling>
+				</Relation>
+			</Config>
+			<Name>wikis</Name>
+			<Object>BlueSpice for MediaWiki</Object>
+			<Object>BrainKeeper</Object>
+			<Object>eXoPlatform</Object>
+			<Object>FlexWiki</Object>
+			<Object>IkiWiki</Object>
+			<Attribute>OpenSource</Attribute>
+			<Attribute>MultiLanguage</Attribute>
+			<RelationalAttribute relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute>
+			<RelationalAttribute relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute>
+			<RelationalAttribute relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute>
+			<RelationalAttribute relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute>
+			<Concept>
+				<ID>Concept_wikis_3</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_1</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_0</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_1</Concept_Ref>
+					<Concept_Ref>Concept_wikis_2</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_2</ID>
+				<Extent>
+					<Object_Ref>BlueSpice for MediaWiki</Object_Ref>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>IkiWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_4</ID>
+				<Extent>
+					<Object_Ref>eXoPlatform</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_0</Concept_Ref>
+					<Concept_Ref>Concept_wikis_6</Concept_Ref>
+					<Concept_Ref>Concept_wikis_5</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_5</ID>
+				<Extent>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>OpenSource</Attribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_1</Concept_Ref>
+					<Concept_Ref>Concept_wikis_7</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_6</ID>
+				<Extent>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>MultiLanguage</Attribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_7</Concept_Ref>
+					<Concept_Ref>Concept_wikis_2</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_wikis_7</ID>
+				<Extent>
+					<Object_Ref>BrainKeeper</Object_Ref>
+					<Object_Ref>eXoPlatform</Object_Ref>
+					<Object_Ref>FlexWiki</Object_Ref>
+				</Extent>
+				<Intent>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_0</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="utiliseSGBD" scaling="exist">Concept_Database_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="aLicence" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_wikis_3</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="5" numberAtt="2" numberCpt="2" >
+			<Config algo="fca">
+				<Relation name="sgbdALicense">
+					<Scaling>exist</Scaling>
+				</Relation>
+			</Config>
+			<Name>Database</Name>
+			<Object>ApacheDerby</Object>
+			<Object>Microsoft SQL Server</Object>
+			<Object>MySQL</Object>
+			<Object>Oracle</Object>
+			<Object>PostGreSQL</Object>
+			<RelationalAttribute relation="sgbdALicense" scaling="exist">Concept_License_1</RelationalAttribute>
+			<RelationalAttribute relation="sgbdALicense" scaling="exist">Concept_License_0</RelationalAttribute>
+			<Concept>
+				<ID>Concept_Database_0</ID>
+				<Extent>
+					<Object_Ref>ApacheDerby</Object_Ref>
+					<Object_Ref>Microsoft SQL Server</Object_Ref>
+					<Object_Ref>MySQL</Object_Ref>
+					<Object_Ref>Oracle</Object_Ref>
+					<Object_Ref>PostGreSQL</Object_Ref>
+				</Extent>
+				<Intent>
+					<RelationalAttribute_Ref relation="sgbdALicense" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_Database_1</ID>
+				<Extent>
+					<Object_Ref>Microsoft SQL Server</Object_Ref>
+					<Object_Ref>MySQL</Object_Ref>
+					<Object_Ref>Oracle</Object_Ref>
+					<Object_Ref>PostGreSQL</Object_Ref>
+				</Extent>
+				<Intent>
+					<RelationalAttribute_Ref relation="sgbdALicense" scaling="exist">Concept_License_1</RelationalAttribute_Ref>
+					<RelationalAttribute_Ref relation="sgbdALicense" scaling="exist">Concept_License_0</RelationalAttribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_Database_0</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+		<Lattice numberObj="6" numberAtt="1" numberCpt="2" >
+			<Config algo="fca">
+			</Config>
+			<Name>License</Name>
+			<Object>GNU AGPL</Object>
+			<Object>GPL</Object>
+			<Object>LGPL</Object>
+			<Object>Proprietary</Object>
+			<Object>Apache License</Object>
+			<Object>Public Domain</Object>
+			<Attribute>Link with code using a different License</Attribute>
+			<Concept>
+				<ID>Concept_License_1</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>GPL</Object_Ref>
+					<Object_Ref>LGPL</Object_Ref>
+					<Object_Ref>Proprietary</Object_Ref>
+					<Object_Ref>Apache License</Object_Ref>
+					<Object_Ref>Public Domain</Object_Ref>
+				</Extent>
+				<Intent>
+				</Intent>
+				<UpperCovers>
+				</UpperCovers>
+			</Concept>
+			<Concept>
+				<ID>Concept_License_0</ID>
+				<Extent>
+					<Object_Ref>GNU AGPL</Object_Ref>
+					<Object_Ref>LGPL</Object_Ref>
+					<Object_Ref>Proprietary</Object_Ref>
+					<Object_Ref>Public Domain</Object_Ref>
+				</Extent>
+				<Intent>
+					<Attribute_Ref>Link with code using a different License</Attribute_Ref>
+				</Intent>
+				<UpperCovers>
+					<Concept_Ref>Concept_License_1</Concept_Ref>
+				</UpperCovers>
+			</Concept>
+		</Lattice>
+	</Step >
+</RCAExplore_Document>

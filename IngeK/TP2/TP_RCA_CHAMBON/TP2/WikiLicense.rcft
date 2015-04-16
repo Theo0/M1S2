@@ -1,0 +1,61 @@
+FormalContext wikis
+algo fca
+|                       |OpenSource|MultiLanguage|
+|BlueSpice for MediaWiki|x         |x            |
+|BrainKeeper            |          |x            |
+|eXoPlatform            |x         |x            |
+|FlexWiki               |x         |             |
+|IkiWiki                |x         |x            |
+
+FormalContext Database
+algo fca
+|                    |
+|ApacheDerby         |
+|Microsoft SQL Server|
+|MySQL               |
+|Oracle              |
+|PostGreSQL          |
+
+FormalContext License
+algo fca
+|              |Link with code using a different License|
+|GNU AGPL      |x                                       |
+|GPL           |                                        |
+|LGPL          |x                                       |
+|Proprietary   |x                                       |
+|Apache License|                                        |
+|Public Domain |x                                       |
+
+RelationalContext utiliseSGBD
+source wikis
+target Database
+scaling exist 
+|                       |ApacheDerby|Microsoft SQL Server|MySQL|Oracle|PostGreSQL|
+|BlueSpice for MediaWiki|x          |                    |x    |      |          |
+|BrainKeeper            |           |                    |x    |      |          |
+|eXoPlatform            |x          |                    |x    |x     |x         |
+|FlexWiki               |           |x                   |     |      |          |
+|IkiWiki                |           |                    |     |x     |          |
+
+RelationalContext sgbdALicense
+source Database
+target License
+scaling exist 
+|                    |GNU AGPL|GPL|LGPL|Proprietary|Apache License|Public Domain|
+|ApacheDerby         |        |   |    |           |x             |             |
+|Microsoft SQL Server|        |   |    |x          |              |             |
+|MySQL               |        |x  |    |x          |              |             |
+|Oracle              |        |   |    |x          |              |             |
+|PostGreSQL          |        |   |    |           |              |x            |
+
+RelationalContext aLicence
+source wikis
+target License
+scaling exist 
+|                       |GNU AGPL|GPL|LGPL|Proprietary|Apache License|Public Domain|
+|BlueSpice for MediaWiki|        |x  |    |           |              |             |
+|BrainKeeper            |        |   |    |x          |              |             |
+|eXoPlatform            |        |   |x   |           |              |             |
+|FlexWiki               |x       |   |    |           |              |             |
+|IkiWiki                |        |x  |    |           |              |             |
+
