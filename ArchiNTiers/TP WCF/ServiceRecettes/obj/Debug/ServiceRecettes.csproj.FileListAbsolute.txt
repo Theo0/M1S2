@@ -1,0 +1,21 @@
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\ServiceRecettes\bin\Debug\ServiceRecettes.dll
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\ServiceRecettes\bin\Debug\ServiceRecettes.pdb
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\ServiceRecettes\bin\Debug\share.dll
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\ServiceRecettes\bin\Debug\share.pdb
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\ServiceRecettes\obj\Debug\ServiceRecettes.csprojResolveAssemblyReference.cache
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\ServiceRecettes\obj\Debug\ServiceRecettes.dll
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\ServiceRecettes\obj\Debug\ServiceRecettes.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\ServiceRecettes\bin\Debug\ServiceRecettes.dll
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\ServiceRecettes\bin\Debug\ServiceRecettes.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\ServiceRecettes\bin\Debug\share.dll
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\ServiceRecettes\bin\Debug\share.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\ServiceRecettes\obj\Debug\ServiceRecettes.csprojResolveAssemblyReference.cache
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\ServiceRecettes\obj\Debug\ServiceRecettes.dll
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\ServiceRecettes\obj\Debug\ServiceRecettes.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\ServiceRecettes\bin\Debug\ServiceRecettes.dll
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\ServiceRecettes\bin\Debug\ServiceRecettes.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\ServiceRecettes\bin\Debug\Share.dll
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\ServiceRecettes\bin\Debug\Share.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\ServiceRecettes\obj\Debug\ServiceRecettes.csprojResolveAssemblyReference.cache
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\ServiceRecettes\obj\Debug\ServiceRecettes.dll
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\ServiceRecettes\obj\Debug\ServiceRecettes.pdb

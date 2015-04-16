@@ -1,0 +1,32 @@
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\Client\bin\Debug\Client.exe.config
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\Client\bin\Debug\Client.exe
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\Client\bin\Debug\Client.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\Client\bin\Debug\share.dll
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\Client\bin\Debug\share.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\Client\obj\x86\Debug\Client.exe
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\Client\obj\x86\Debug\Client.pdb
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\Client\bin\Debug\ServiceRecettes.dll
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\Client\bin\Debug\ServiceRecettes.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\Client\bin\Debug\Client.exe.config
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\Client\obj\x86\Debug\Client.exe
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\Client\obj\x86\Debug\Client.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\Client\bin\Debug\Client.exe
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\Client\bin\Debug\Client.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\Client\bin\Debug\share.dll
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\Client\bin\Debug\share.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Client\bin\Debug\Client.exe.config
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Client\obj\x86\Debug\Client.exe
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Client\bin\Debug\Client.exe
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Client\bin\Debug\Client.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Client\bin\Debug\Share.dll
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Client\bin\Debug\Share.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Client\obj\x86\Debug\Client.pdb
+M:\Documents\M1S2\ArchiNTiers\WCF\WCF\WCF-Recipes\Client\bin\Debug\Client.exe.config
+M:\Documents\M1S2\ArchiNTiers\WCF\WCF\WCF-Recipes\Client\obj\x86\Debug\Client.exe
+M:\Documents\M1S2\ArchiNTiers\WCF\WCF\WCF-Recipes\Client\obj\x86\Debug\Client.pdb
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Client\bin\Debug\Client.exe.config
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Client\obj\x86\Debug\Client.exe
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Client\obj\x86\Debug\Client.pdb

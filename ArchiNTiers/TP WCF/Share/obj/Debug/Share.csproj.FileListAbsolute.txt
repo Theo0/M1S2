@@ -1,0 +1,12 @@
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Share\bin\Debug\Share.dll.config
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Share\bin\Debug\Share.dll
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Share\bin\Debug\Share.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Share\obj\Debug\Share.dll
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Share\obj\Debug\Share.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\Share\obj\Debug\Share.csprojResolveAssemblyReference.cache
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Share\bin\Debug\Share.dll.config
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Share\bin\Debug\Share.dll
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Share\bin\Debug\Share.pdb
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Share\obj\Debug\Share.csprojResolveAssemblyReference.cache
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Share\obj\Debug\Share.dll
+M:\Documents\M1S2\ArchiNTiers\TP WCF\Share\obj\Debug\Share.pdb

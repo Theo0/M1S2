@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cogxml>
+<namespace name="http://www.lirmm.fr/cogui#" prefix=""/>
+<support name="vocabulary">
+<conceptTypes>
+<ctype id="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" label="t1" x="75" y="110">
+<translation descr="" label="t1" lang="en"/>
+</ctype>
+<ctype id="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc" label="Top" x="10" y="60">
+<translation descr="" label="Top" lang="en"/>
+</ctype>
+<ctype id="http://www.lirmm.fr/cogui#ct_6c493451-30f3-4149-a51f-8bda85a9da24" label="t2" x="75" y="10">
+<translation descr="" label="t2" lang="en"/>
+</ctype>
+<ctype id="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" label="t3" x="170" y="65">
+<translation descr="" label="t3" lang="en"/>
+</ctype>
+<order id1="http://www.lirmm.fr/cogui#ct_6c493451-30f3-4149-a51f-8bda85a9da24" id2="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc"/>
+<order id1="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" id2="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc"/>
+<order id1="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" id2="http://www.lirmm.fr/cogui#ct_6c493451-30f3-4149-a51f-8bda85a9da24"/>
+<order id1="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" id2="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9"/>
+</conceptTypes>
+<relationTypes>
+<rtype id="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" idSignature="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc" label="r" x="100" y="20">
+<translation descr="" label="r" lang="en"/>
+</rtype>
+</relationTypes>
+<nestingTypes>
+<ntype id="http://www.lirmm.fr/cogui#_nt_16b966c2-b8a9-4c0e-bc53-1a25aec1f7a8" label="Nesting">
+<translation descr="" label="Nesting" lang="en"/>
+</ntype>
+</nestingTypes>
+<conformity>
+<marker id="http://www.lirmm.fr/cogui#i_78ea98cb-0d85-4d93-98eb-097f04f6ba51" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" label="A"/>
+</conformity>
+<modules/>
+</support>
+<localeTypes name="undefined_vocabulary">
+<conceptTypes/>
+<relationTypes/>
+<nestingTypes/>
+<conformity/>
+<modules/>
+</localeTypes>
+<graph id="_graph6" label="G5" nature="fact" set="set1">
+<concept id="c_e9de85bb-dd6f-4410-a3c6-7afe75840b58" idType="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" x="115" y="50"/>
+<relation id="r_9628f700-934f-47be-92bc-6c60fa096f96" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="235" y="55"/>
+<edge cid="c_e9de85bb-dd6f-4410-a3c6-7afe75840b58" label="1" rid="r_9628f700-934f-47be-92bc-6c60fa096f96"/>
+<edge cid="c_e9de85bb-dd6f-4410-a3c6-7afe75840b58" label="2" rid="r_9628f700-934f-47be-92bc-6c60fa096f96"/>
+</graph>
+<graph id="_graph5" label="G4" nature="fact" set="set1">
+<concept id="c_6f7a9ab1-f7fc-4756-8d3d-125d921568e1" idType="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" x="120" y="50"/>
+<concept id="c_1a27ac8e-c074-4184-87c2-591bae519c47" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" x="340" y="70"/>
+<relation id="r_a25b093a-e3ad-4f08-bf1f-867c07a4a491" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="240" y="60"/>
+<relation id="r_e5383458-f6be-4745-94c2-1915b3e05e78" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="260" y="145"/>
+<edge cid="c_6f7a9ab1-f7fc-4756-8d3d-125d921568e1" label="1" rid="r_a25b093a-e3ad-4f08-bf1f-867c07a4a491"/>
+<edge cid="c_6f7a9ab1-f7fc-4756-8d3d-125d921568e1" label="1" rid="r_e5383458-f6be-4745-94c2-1915b3e05e78"/>
+<edge cid="c_1a27ac8e-c074-4184-87c2-591bae519c47" label="2" rid="r_e5383458-f6be-4745-94c2-1915b3e05e78"/>
+<edge cid="c_1a27ac8e-c074-4184-87c2-591bae519c47" label="2" rid="r_a25b093a-e3ad-4f08-bf1f-867c07a4a491"/>
+</graph>
+<graph id="_graph4" label="G3" nature="fact" set="set1">
+<concept id="c_7274dabb-fee9-49ff-b248-781ec18c39ba" idType="http://www.lirmm.fr/cogui#ct_6c493451-30f3-4149-a51f-8bda85a9da24" x="135" y="65"/>
+<concept id="c_b9e601dd-d2de-407a-82fb-76f7d6784072" idType="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" x="320" y="65"/>
+<concept id="c_a5c52b7e-b761-4dbd-be07-37201c43d4d7" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" x="460" y="65"/>
+<relation id="r_6ddae8d6-3d96-4b79-922c-8b9622c2e619" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="240" y="70"/>
+<relation id="r_8cdc98c0-98e3-463e-af59-de53bade18ed" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="400" y="70"/>
+<edge cid="c_7274dabb-fee9-49ff-b248-781ec18c39ba" label="1" rid="r_6ddae8d6-3d96-4b79-922c-8b9622c2e619"/>
+<edge cid="c_b9e601dd-d2de-407a-82fb-76f7d6784072" label="2" rid="r_6ddae8d6-3d96-4b79-922c-8b9622c2e619"/>
+<edge cid="c_b9e601dd-d2de-407a-82fb-76f7d6784072" label="1" rid="r_8cdc98c0-98e3-463e-af59-de53bade18ed"/>
+<edge cid="c_a5c52b7e-b761-4dbd-be07-37201c43d4d7" label="2" rid="r_8cdc98c0-98e3-463e-af59-de53bade18ed"/>
+</graph>
+<graph id="_graph3" label="G2" nature="fact" set="set1">
+<concept id="c_e5952a55-a5a1-4a49-9329-3b63762d27d4" idType="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc" x="90" y="65"/>
+<concept id="c_75a1f90a-dcfa-4f7f-a2dc-eeee0c3ff07c" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" x="335" y="65"/>
+<concept id="c_fd77d9e5-97ba-42ab-9bc0-7858918ba9de" idType="http://www.lirmm.fr/cogui#ct_6c493451-30f3-4149-a51f-8bda85a9da24" x="110" y="195"/>
+<concept id="c_05039b59-e2d3-48aa-82b7-0bd71b11dd80" idType="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc" x="335" y="200"/>
+<relation id="r_242357e3-c1ea-47ad-a9d7-1d3f33ab7797" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="235" y="70"/>
+<relation id="r_63a92160-4d0c-4e9e-861f-ca4e7eb0e507" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="240" y="200"/>
+<edge cid="c_fd77d9e5-97ba-42ab-9bc0-7858918ba9de" label="1" rid="r_63a92160-4d0c-4e9e-861f-ca4e7eb0e507"/>
+<edge cid="c_05039b59-e2d3-48aa-82b7-0bd71b11dd80" label="2" rid="r_63a92160-4d0c-4e9e-861f-ca4e7eb0e507"/>
+<edge cid="c_e5952a55-a5a1-4a49-9329-3b63762d27d4" label="1" rid="r_242357e3-c1ea-47ad-a9d7-1d3f33ab7797"/>
+<edge cid="c_75a1f90a-dcfa-4f7f-a2dc-eeee0c3ff07c" label="2" rid="r_242357e3-c1ea-47ad-a9d7-1d3f33ab7797"/>
+</graph>
+<graph id="_graph2" label="G1" nature="fact" set="set1">
+<concept id="c_a18beb62-733c-4c89-8833-bc4c04028bf2" idType="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc" x="515" y="235"/>
+<concept id="c_62a9d794-3b31-4b01-9246-f02bdb75ce14" idType="http://www.lirmm.fr/cogui#ct_6c493451-30f3-4149-a51f-8bda85a9da24" x="290" y="125"/>
+<concept id="c_3819fc79-5fe6-4119-8c4c-b1fccedb79f5" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" x="740" y="350"/>
+<relation id="r_f99df6b8-d240-43be-ad6b-12b4662db085" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="395" y="175"/>
+<relation id="r_6be6e4a3-87d3-4dde-b458-d5edad1e96cf" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="635" y="295"/>
+<edge cid="c_62a9d794-3b31-4b01-9246-f02bdb75ce14" label="1" rid="r_f99df6b8-d240-43be-ad6b-12b4662db085"/>
+<edge cid="c_a18beb62-733c-4c89-8833-bc4c04028bf2" label="2" rid="r_f99df6b8-d240-43be-ad6b-12b4662db085"/>
+<edge cid="c_a18beb62-733c-4c89-8833-bc4c04028bf2" label="1" rid="r_6be6e4a3-87d3-4dde-b458-d5edad1e96cf"/>
+<edge cid="c_3819fc79-5fe6-4119-8c4c-b1fccedb79f5" label="2" rid="r_6be6e4a3-87d3-4dde-b458-d5edad1e96cf"/>
+</graph>
+<graph id="fact_1" label="G0" nature="fact" set="set1">
+<concept id="c_df81c986-0e80-4459-9f8f-5936a4cfed00" idType="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc" x="255" y="120"/>
+<concept id="c_dcce496d-477d-445d-84e8-3fc4aa7780a2" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" x="145" y="220"/>
+<concept id="c_1e6aed86-c054-46d3-a6b6-7f773d0de87b" idType="http://www.lirmm.fr/cogui#ct_6c493451-30f3-4149-a51f-8bda85a9da24" x="365" y="245"/>
+<concept id="c_561ad232-00d5-4e24-9bb0-5632951dbe93" idType="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" x="235" y="335"/>
+<relation id="r_6adfa5f8-5b77-42b3-994f-6a129ca1e379" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="350" y="185"/>
+<relation id="r_b852262f-38d8-4cb4-ae45-cdf215f21917" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="340" y="315"/>
+<relation id="r_ad3fad9c-8a6a-4aed-81b8-45fe6082a1b7" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="175" y="295"/>
+<relation id="r_b73fddcb-5a40-4535-986a-44a02d97929b" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="185" y="155"/>
+<edge cid="c_df81c986-0e80-4459-9f8f-5936a4cfed00" label="1" rid="r_b73fddcb-5a40-4535-986a-44a02d97929b"/>
+<edge cid="c_dcce496d-477d-445d-84e8-3fc4aa7780a2" label="2" rid="r_b73fddcb-5a40-4535-986a-44a02d97929b"/>
+<edge cid="c_561ad232-00d5-4e24-9bb0-5632951dbe93" label="1" rid="r_ad3fad9c-8a6a-4aed-81b8-45fe6082a1b7"/>
+<edge cid="c_dcce496d-477d-445d-84e8-3fc4aa7780a2" label="2" rid="r_ad3fad9c-8a6a-4aed-81b8-45fe6082a1b7"/>
+<edge cid="c_1e6aed86-c054-46d3-a6b6-7f773d0de87b" label="1" rid="r_b852262f-38d8-4cb4-ae45-cdf215f21917"/>
+<edge cid="c_561ad232-00d5-4e24-9bb0-5632951dbe93" label="2" rid="r_b852262f-38d8-4cb4-ae45-cdf215f21917"/>
+<edge cid="c_1e6aed86-c054-46d3-a6b6-7f773d0de87b" label="1" rid="r_6adfa5f8-5b77-42b3-994f-6a129ca1e379"/>
+<edge cid="c_df81c986-0e80-4459-9f8f-5936a4cfed00" label="2" rid="r_6adfa5f8-5b77-42b3-994f-6a129ca1e379"/>
+</graph>
+<graph id="_graph8" label="G7" nature="fact" set="set1">
+<concept id="c_71f53417-78bc-4137-8d8b-ba78bfd93e02" idType="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" x="100" y="50"/>
+<concept id="c_b71c2d29-6385-48db-8990-e8396cbe3d20" idMarker="http://www.lirmm.fr/cogui#i_78ea98cb-0d85-4d93-98eb-097f04f6ba51" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" referent="individual" x="280" y="55"/>
+<relation id="r_ef5082aa-f277-468e-a1f6-e9a2dc60f7a1" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="210" y="65"/>
+<relation id="r_0ece7956-11a3-45b3-a303-b9f4c42d80eb" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="220" y="140"/>
+<edge cid="c_71f53417-78bc-4137-8d8b-ba78bfd93e02" label="1" rid="r_ef5082aa-f277-468e-a1f6-e9a2dc60f7a1"/>
+<edge cid="c_b71c2d29-6385-48db-8990-e8396cbe3d20" label="2" rid="r_ef5082aa-f277-468e-a1f6-e9a2dc60f7a1"/>
+<edge cid="c_b71c2d29-6385-48db-8990-e8396cbe3d20" label="1" rid="r_0ece7956-11a3-45b3-a303-b9f4c42d80eb"/>
+<edge cid="c_71f53417-78bc-4137-8d8b-ba78bfd93e02" label="2" rid="r_0ece7956-11a3-45b3-a303-b9f4c42d80eb"/>
+</graph>
+<graph id="_graph7" label="G6" nature="fact" set="set1">
+<concept id="c_7023c6a3-231c-48b2-b6fe-25828a2fbeec" idType="http://www.lirmm.fr/cogui#ct_00a885b3-3691-44c4-a3e7-309f7e210d27" x="210" y="65"/>
+<concept id="c_8eb416ad-3314-479d-8e2a-88886b37d036" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" x="440" y="80"/>
+<relation id="r_27bfee2a-02f5-4a41-b45c-933c6f812e53" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="355" y="80"/>
+<relation id="r_bf58811c-8052-4071-bd42-e3b0430d639b" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="375" y="150"/>
+<edge cid="c_7023c6a3-231c-48b2-b6fe-25828a2fbeec" label="1" rid="r_27bfee2a-02f5-4a41-b45c-933c6f812e53"/>
+<edge cid="c_8eb416ad-3314-479d-8e2a-88886b37d036" label="2" rid="r_27bfee2a-02f5-4a41-b45c-933c6f812e53"/>
+<edge cid="c_8eb416ad-3314-479d-8e2a-88886b37d036" label="1" rid="r_bf58811c-8052-4071-bd42-e3b0430d639b"/>
+<edge cid="c_7023c6a3-231c-48b2-b6fe-25828a2fbeec" label="2" rid="r_bf58811c-8052-4071-bd42-e3b0430d639b"/>
+</graph>
+<graph id="_query1" label="Q1" nature="query" set="set1">
+<concept id="c_930d2ba0-06f9-4c7e-9874-153eb1c9a9ad" idType="http://www.lirmm.fr/cogui#ct_76e66f13-4517-48f9-9ad0-e02d166abad9" x="595" y="310"/>
+<concept id="c_ca6b293b-6cf2-4020-ad4c-d59a2708fd04" idType="http://www.lirmm.fr/cogui#_ct_c4e759d1-f79c-44b1-b0e9-c8370409d4bc" x="395" y="155"/>
+<concept id="c_d64139d9-b02b-4983-9006-906d0efc55ca" idType="http://www.lirmm.fr/cogui#ct_6c493451-30f3-4149-a51f-8bda85a9da24" x="195" y="10"/>
+<relation id="r_b3bd0a35-2c75-4201-8c7c-6e8b967dd988" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="290" y="75"/>
+<relation id="r_96c2df8e-4e78-4d23-8787-0cca212de1e3" idType="http://www.lirmm.fr/cogui#rt_f3c2342b-1d00-44ee-b590-0c3021f93f23" x="505" y="235"/>
+<edge cid="c_d64139d9-b02b-4983-9006-906d0efc55ca" label="1" rid="r_b3bd0a35-2c75-4201-8c7c-6e8b967dd988"/>
+<edge cid="c_ca6b293b-6cf2-4020-ad4c-d59a2708fd04" label="2" rid="r_b3bd0a35-2c75-4201-8c7c-6e8b967dd988"/>
+<edge cid="c_ca6b293b-6cf2-4020-ad4c-d59a2708fd04" label="1" rid="r_96c2df8e-4e78-4d23-8787-0cca212de1e3"/>
+<edge cid="c_930d2ba0-06f9-4c7e-9874-153eb1c9a9ad" label="2" rid="r_96c2df8e-4e78-4d23-8787-0cca212de1e3"/>
+</graph>
+</cogxml>

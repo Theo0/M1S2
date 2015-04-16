@@ -1,0 +1,36 @@
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\HebergementService\bin\Debug\HebergementService.exe.config
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\HebergementService\bin\Debug\HebergementService.exe
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\HebergementService\bin\Debug\HebergementService.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\HebergementService\bin\Debug\share.dll
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\HebergementService\bin\Debug\share.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\HebergementService\obj\x86\Debug\HebergementService.csprojResolveAssemblyReference.cache
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\HebergementService\obj\x86\Debug\HebergementService.exe
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-Recettes\HebergementService\obj\x86\Debug\HebergementService.pdb
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\HebergementService\bin\Debug\ServiceRecettes.dll
+C:\Users\Gilles\documents\visual studio 2010\Projects\WCF-Recettes\HebergementService\bin\Debug\ServiceRecettes.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\bin\Debug\HebergementService.exe.config
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\bin\Debug\HebergementService.exe
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\bin\Debug\HebergementService.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\bin\Debug\ServiceRecettes.dll
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\bin\Debug\share.dll
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\bin\Debug\ServiceRecettes.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\bin\Debug\share.pdb
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\obj\x86\Debug\HebergementService.csprojResolveAssemblyReference.cache
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\obj\x86\Debug\HebergementService.exe
+C:\Users\Gilles\Documents\Visual Studio 2010\Projects\WCF-RecettesSingleBase\HebergementService\obj\x86\Debug\HebergementService.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\bin\Debug\HebergementService.exe.config
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\bin\Debug\HebergementService.exe
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\bin\Debug\HebergementService.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\bin\Debug\ServiceRecettes.dll
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\bin\Debug\Share.dll
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\bin\Debug\ServiceRecettes.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\bin\Debug\Share.pdb
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\obj\x86\Debug\HebergementService.csprojResolveAssemblyReference.cache
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\obj\x86\Debug\HebergementService.exe
+C:\Users\tchambon\Desktop\WCF\WCF-Recipes\HebergementService\obj\x86\Debug\HebergementService.pdb
+M:\Documents\M1S2\ArchiNTiers\WCF\WCF\WCF-Recipes\HebergementService\bin\Debug\HebergementService.exe.config
+M:\Documents\M1S2\ArchiNTiers\WCF\WCF\WCF-Recipes\HebergementService\obj\x86\Debug\HebergementService.exe
+M:\Documents\M1S2\ArchiNTiers\WCF\WCF\WCF-Recipes\HebergementService\obj\x86\Debug\HebergementService.pdb
+M:\Documents\M1S2\ArchiNTiers\TP WCF\HebergementService\bin\Debug\HebergementService.exe.config
+M:\Documents\M1S2\ArchiNTiers\TP WCF\HebergementService\obj\x86\Debug\HebergementService.exe
+M:\Documents\M1S2\ArchiNTiers\TP WCF\HebergementService\obj\x86\Debug\HebergementService.pdb
