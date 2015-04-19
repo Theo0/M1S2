@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.rmi.server.UnicastRemoteObject"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="animal3.Animal"/>
+<fullyQualifiedTypeName name="animal3.EspeceProtegee"/>
+<fullyQualifiedTypeName name="animal3.CabinetImpl"/>
+<fullyQualifiedTypeName name="animal3.Alerte"/>
+<fullyQualifiedTypeName name="animal3.Cabinet"/>
+<fullyQualifiedTypeName name="animal3.AlerteImpl"/>
+<fullyQualifiedTypeName name="animal3.AnimalImpl"/>
+<fullyQualifiedTypeName name="animal3.EspeceImpl"/>
+<fullyQualifiedTypeName name="java.rmi.RMISecurityManager"/>
+</qualifiedTypeNameHistroy>

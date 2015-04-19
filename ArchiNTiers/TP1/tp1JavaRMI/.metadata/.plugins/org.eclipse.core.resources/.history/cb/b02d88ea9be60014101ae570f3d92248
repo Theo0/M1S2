@@ -1,0 +1,10 @@
+package animal2;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface Cabinet extends Remote {
+	Animal rechercherAnimal(String p_nom)throws RemoteException;
+	String syntheseEspece(EspeceInterface p_esp)throws RemoteException;
+	void addPatient(Animal p_ani)throws RemoteException;
+	void deletePatient(String p_nom)throws RemoteException;
+}

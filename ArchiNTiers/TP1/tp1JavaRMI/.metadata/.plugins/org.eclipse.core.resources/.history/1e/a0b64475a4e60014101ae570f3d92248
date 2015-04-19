@@ -1,0 +1,11 @@
+package animal3;
+
+import java.rmi.RemoteException;
+
+public class EspeceProtegee extends EspeceImpl{
+
+	public EspeceProtegee(String espece, int duree) throws RemoteException {
+		super(espece, duree);
+	}
+
+}

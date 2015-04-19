@@ -1,0 +1,11 @@
+package animal3;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface Alerte extends Remote{
+	
+	void print(String nom, int nombre)throws RemoteException;
+
+	void negatif(String nom, int nombrePatients) throws RemoteException;;  
+}

@@ -1,0 +1,9 @@
+package animal3Protegee;
+
+import animal3.Espece;
+
+
+public class EspeceProtegee {
+
+	Animal a;
+}

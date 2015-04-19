@@ -1,0 +1,24 @@
+package animal;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public class EspeceImpl implements Espece{
+	
+	int dureeVie;
+	String espece;
+	
+	public EspeceImpl(String espece,int duree) throws RemoteException{
+		this.espece = espece;
+		this.dureeVie = duree;
+	}
+	
+	public String getEspece() throws RemoteException {
+		return this.espece;
+	}
+
+	
+	public int getDureeVie() throws RemoteException {
+		return this.dureeVie;
+	}
+	
+}

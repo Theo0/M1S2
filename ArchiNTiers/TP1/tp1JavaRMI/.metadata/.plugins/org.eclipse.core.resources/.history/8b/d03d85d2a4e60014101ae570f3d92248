@@ -1,0 +1,25 @@
+package animal3;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.util.Scanner;
+
+
+public class Client {
+	private Client(){}
+	
+	public static void main(String[] args){
+		String host = (args.length < 1) ? null : args[0];
+		try{
+			Registry registry = LocateRegistry.getRegistry(host);
+			//Récupération du cabinet
+			Cabinet stub = (Cabinet)registry.lookup("cabinet");
+			
+			EspeceProtegee espP = new EspeceProtegee();
+			
+		}catch(Exception e){
+			System.err.println("Client exception : " + e.toString());
+			e.printStackTrace();
+		}
+	}
+
+}

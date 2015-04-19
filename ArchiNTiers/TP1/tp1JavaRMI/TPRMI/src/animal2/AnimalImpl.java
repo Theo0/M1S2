@@ -1,0 +1,32 @@
+package animal2;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+
+public class AnimalImpl extends UnicastRemoteObject implements Animal{
+
+		String nom;
+		String nomMaitre;
+		DossierImpl dossier;
+		
+		public AnimalImpl(String n, String nm) throws RemoteException{
+			this.nom = n;
+			this.nomMaitre = nm;
+			this.dossier = new DossierImpl();
+		}
+		
+		public String printAnimal() throws RemoteException {
+			String s = "Nom de l'animal : " + this.nom + " / Nom du maitre : " + this.nomMaitre + "\n";
+			return s;
+		}
+		
+		public DossierImpl getDossier() throws RemoteException {
+			return this.dossier;
+		}
+
+		@Override
+		public String getNom() throws RemoteException {
+			return this.nom;
+		}
+}

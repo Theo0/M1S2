@@ -1,0 +1,29 @@
+package animal2;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+
+
+public class Client {
+	private Client(){}
+	
+	public static void main(String[] args){
+		String host = (args.length < 1) ? null : args[0];
+		try{
+			Registry registry = LocateRegistry.getRegistry(host);
+			//Récupération du cabinet
+			Cabinet stub = (Cabinet)registry.lookup("cabinet");
+			
+			//Affichage des infos du cabinet
+			System.out.println("Liste des animaux du cabinet : ");
+			System.out.println(stub.printListeAnimaux());
+			
+			//Recherche d'un animal
+			stub.rechercheAnimal(nom);
+			
+		}catch(Exception e){
+			System.err.println("Client exception : " + e.toString());
+			e.printStackTrace();
+		}
+	}
+
+}

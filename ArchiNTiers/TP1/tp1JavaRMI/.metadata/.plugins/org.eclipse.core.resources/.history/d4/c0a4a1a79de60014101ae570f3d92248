@@ -1,0 +1,41 @@
+package animal2;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.ArrayList;
+
+public class CabinetImpl extends UnicastRemoteObject implements Cabinet {
+	
+	public ArrayList<Animal> listeAnimaux;
+
+	protected CabinetImpl() throws RemoteException {
+		this.listeAnimaux = new ArrayList<Animal>();
+	}
+
+
+	public Animal rechercheAnimal(String nom) throws RemoteException {
+		for(int i=0; i<listeAnimaux.size(); i++){
+			if(this.listeAnimaux.get(i).getNom().equals(nom)){
+				return this.listeAnimaux.get(i);
+			}
+		}
+		return null;
+	}
+
+
+	public void addAnimal(Animal a) throws RemoteException {
+		if(rechercheAnimal(a.getNom()) == null){
+			listeAnimaux.add(a);
+		}
+		else{
+			System.out.println("ERREUR : Un animal portant ce nom existe déjà.");
+		}
+		
+	}
+
+	public void deleteAnimal(String nom) throws RemoteException {
+		Animal a = rechercheAnimal(nom);
+		
+	}
+
+}

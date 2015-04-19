@@ -1,0 +1,26 @@
+package animal;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public class EspeceImpl implements Espece{
+	
+	int dureeVie;
+	String espece;
+	
+	public EspeceImpl(String p_espece,int p_age_max) throws RemoteException{
+		espece=p_espece;
+		age_max=p_age_max;
+	}
+	
+	public String getEspece() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	public int getDureeVie() throws RemoteException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}
