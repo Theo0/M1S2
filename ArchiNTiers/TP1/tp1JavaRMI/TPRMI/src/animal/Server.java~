@@ -11,10 +11,10 @@ public class Server {
 		
 		try{
 			
-			/*if(System.getSecurityManager()==null){
+			if(System.getSecurityManager()==null){
 	            System.setProperty("java.security.policy","file:///auto_home/tchambon/Documents/M1S2/ArchiNTiers/TP1/tp1JavaRMI/TPRMI/server.policy");
 	            System.setSecurityManager(new RMISecurityManager());
-	        }*/
+	        }
 			
 			AnimalImpl obj = new AnimalImpl("médor", "dupont");
 			EspeceImpl esp = new EspeceImpl("chiens", 10);

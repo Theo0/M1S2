@@ -25,7 +25,7 @@ public class Client {
 			
 			
 			//Déclenchement alertes
-			AnimalImpl a = new AnimalImpl("Chat", "Henri");
+			Animal a = new AnimalImpl("Chat", "Henri");
 			System.out.println(" *****  Ajout d'un animal");
 			stub.addAnimal(a);
 			System.out.println("****** Suppression d'un animal");

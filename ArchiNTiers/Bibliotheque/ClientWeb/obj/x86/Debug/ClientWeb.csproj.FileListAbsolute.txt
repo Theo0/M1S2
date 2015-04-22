@@ -1,0 +1,5 @@
+M:\Documents\M1S2\ArchiNTiers\Bibliotheque\ClientWeb\bin\Debug\ClientWeb.exe
+M:\Documents\M1S2\ArchiNTiers\Bibliotheque\ClientWeb\bin\Debug\ClientWeb.pdb
+M:\Documents\M1S2\ArchiNTiers\Bibliotheque\ClientWeb\obj\x86\Debug\ResolveAssemblyReference.cache
+M:\Documents\M1S2\ArchiNTiers\Bibliotheque\ClientWeb\obj\x86\Debug\ClientWeb.exe
+M:\Documents\M1S2\ArchiNTiers\Bibliotheque\ClientWeb\obj\x86\Debug\ClientWeb.pdb
