@@ -1,0 +1,34 @@
+package reseau;
+import java.util.Iterator;
+
+import graphe.*;
+
+public class Reseau extends Graphe<Reseau, Noeud, Lien> {
+
+	public Reseau(){
+		super();
+		this.nomGraphe = "Molecule" + num;
+	}
+
+	public void afficherGraphe() {
+		System.out.println("Graphe : " + this.nomGraphe);
+		//Affichage des atomes
+		System.out.print("Liste des atomes : " );
+		Iterator<Noeud> i = ListeSommets.iterator();
+		while (i.hasNext()){
+			Noeud somm=i.next();
+			System.out.print(" " + somm.getNom());
+		}
+		System.out.println("");
+		//Affichage des liaisons
+		System.out.print("Listes des liaisons : ");
+		Iterator<Lien> j = ListeAretes.iterator();
+		while (j.hasNext()){
+			Lien a=j.next();
+			System.out.print(" " + a.getNom() + " ( " + a.getNomSommetsLies() + ")");
+		}
+		
+		System.out.println("\n");
+	}
+
+}

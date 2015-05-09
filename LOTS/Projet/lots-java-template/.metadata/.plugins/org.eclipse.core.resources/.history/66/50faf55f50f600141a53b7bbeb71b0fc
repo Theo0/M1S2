@@ -1,0 +1,11 @@
+package reseau;
+
+import graphe.*;
+
+public class Liaison extends Arete<Molecule,Noeud,Liaison>{
+	
+	public Liaison(){
+		super();
+		this.nomArete = "Liaison" + num;
+	}
+}

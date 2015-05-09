@@ -1,0 +1,7 @@
+package molecules;
+
+import graphe.*;
+
+public class Atome extends Sommet<Molecule,Atome,Liaison>{
+
+}
