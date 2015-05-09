@@ -1,0 +1,21 @@
+INDEX VERSION 1.127+/Users/theo/Documents/M1S2/LOTS/Projet/scala/.metadata/.plugins/org.eclipse.jdt.core
+1895149571.index
+1761014631.index
+2802271970.index
+3357112224.index
+2341144479.index
+3683318637.index
+2783648097.index
+1831474627.index
+1040376109.index
+2171826273.index
+306326927.index
+3085072714.index
+1271342938.index
+419607439.index
+1242869121.index
+4291364629.index
+3446051337.index
+1403298811.index
+2376625133.index
+1511570354.index

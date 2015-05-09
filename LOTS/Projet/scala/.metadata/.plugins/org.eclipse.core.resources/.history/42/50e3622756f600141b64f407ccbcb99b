@@ -1,0 +1,19 @@
+package virtuel
+import java.util.ArrayList;
+
+class Graphe(nom: String) {
+  
+  type virtualSommet <: Sommet;
+  type virtualArete <: Arete;
+  type virtualGraphe <:Graphe;
+  
+  var listeSommets = new  ArrayList[virtualSommet]();
+  var listeAretes  = new  ArrayList[virtualArete]();
+  var nomGraphe: String = nom;
+  
+  def ajouterSommet(sommet: virtualSommet){
+    listeSommets.add(sommet)
+  }
+  
+  
+}

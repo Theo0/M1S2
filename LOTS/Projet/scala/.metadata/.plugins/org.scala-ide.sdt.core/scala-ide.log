@@ -1,0 +1,384 @@
+2015-05-09 15:58:37,548 ERROR [Worker-0] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.model.IDebugModelProvider
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-05-09 15:59:25,011 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-05-09 15:59:44,550  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 15:59:44,551  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:00:18,256  WARN [Worker-1] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:00:18,256  WARN [Worker-1] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:00:26,556  WARN [Worker-4] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:00:26,557  WARN [Worker-4] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:00:32,754  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:00:32,755  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:01:04,580  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:01:04,581  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:01:06,458 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-05-09 16:01:22,327  WARN [Worker-0] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:01:22,327  WARN [Worker-0] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:01:45,053  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:01:45,053  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:03:28,609 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-05-09 16:05:36,258  WARN [Worker-0] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:05:36,259  WARN [Worker-0] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:06:22,971  WARN [Worker-6] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:06:22,971  WARN [Worker-6] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:07:27,355  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:07:27,356  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:07:49,070  WARN [Worker-0] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:07:49,070  WARN [Worker-0] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:08:12,728  WARN [Worker-1] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:08:12,728  WARN [Worker-1] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:08:32,047  WARN [Worker-1] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:08:32,047  WARN [Worker-1] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:08:35,445  WARN [Worker-6] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:08:35,446  WARN [Worker-6] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:08:39,745  WARN [Worker-4] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:08:39,746  WARN [Worker-4] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:08:46,680  WARN [Worker-2] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:08:46,681  WARN [Worker-2] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:11:57,364  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:11:57,365  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:11:59,878  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:11:59,878  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:14:28,276  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:14:28,277  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:15:59,123  WARN [Worker-9] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:15:59,123  WARN [Worker-9] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:17:41,776  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:17:41,777  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:19:10,541  WARN [Worker-8] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:19:10,542  WARN [Worker-8] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:20:38,805  WARN [Worker-7] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:20:38,805  WARN [Worker-7] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:21:13,755 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:377)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:961)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:810)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:840)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:706)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:699)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:840)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:326)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:504)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:429)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:518)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:329)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2619)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2461)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2473)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3030)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3025)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3024)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3011)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:2988)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2917)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2924)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2888)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2751)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$classDef$1.apply(Parsers.scala:2731)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:327)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2731)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2708)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2693)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:2980)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2980)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:2973)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:2957)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:2972)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3170)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3162)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3176)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3138)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:441)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:432)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:441)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1607)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1607)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1607)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1606)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:750)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1202)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1606)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:656)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:562)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2015-05-09 16:22:28,681  WARN [Worker-7] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:22:28,681  WARN [Worker-7] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:22:39,749  WARN [Worker-7] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:22:39,750  WARN [Worker-7] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:22:46,918  WARN [Worker-10] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:22:46,918  WARN [Worker-10] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:22:52,966  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:22:52,966  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:23:52,171  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:23:52,171  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:24:18,456  WARN [Worker-4] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:24:18,457  WARN [Worker-4] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:25:22,511  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:25:22,511  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:25:31,405  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:25:31,406  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:27:41,848  WARN [Worker-10] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:27:41,849  WARN [Worker-10] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:27:48,580  WARN [Worker-10] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:27:48,580  WARN [Worker-10] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:30:26,793  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:30:26,793  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:32:07,347  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:32:07,347  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:32:44,640  WARN [Worker-8] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:32:44,641  WARN [Worker-8] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:34:46,695  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:34:46,696  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:35:12,451  WARN [Worker-10] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:35:12,451  WARN [Worker-10] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:35:20,230  WARN [Worker-11] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:35:20,230  WARN [Worker-11] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:35:21,125 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 16:35:21,125 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 16:35:21,125 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 16:35:29,908  WARN [Worker-11] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:35:29,908  WARN [Worker-11] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:35:48,387  WARN [Worker-7] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:35:48,388  WARN [Worker-7] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 16:35:53,186  WARN [Worker-11] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 16:35:53,186  WARN [Worker-11] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:38:36,139  WARN [Worker-14] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:38:36,139  WARN [Worker-14] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:39:20,964  WARN [Worker-14] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:39:20,964  WARN [Worker-14] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:39:25,618  WARN [Worker-7] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:39:25,618  WARN [Worker-7] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:39:34,297  WARN [Worker-10] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:39:34,298  WARN [Worker-10] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:41:37,470  WARN [Worker-17] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:41:37,471  WARN [Worker-17] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:41:50,218  WARN [Worker-7] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:41:50,218  WARN [Worker-7] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:46:58,572  WARN [Worker-18] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:46:58,572  WARN [Worker-18] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:47:17,577  WARN [Worker-17] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:47:17,577  WARN [Worker-17] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:47:51,305  WARN [Worker-18] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:47:51,305  WARN [Worker-18] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:48:10,556  WARN [Worker-18] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:48:10,556  WARN [Worker-18] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:48:16,694  WARN [Worker-10] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:48:16,694  WARN [Worker-10] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:48:32,170  WARN [Worker-17] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:48:32,170  WARN [Worker-17] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:49:57,436  WARN [Worker-20] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:49:57,436  WARN [Worker-20] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:50:06,915  WARN [Worker-20] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:50:06,915  WARN [Worker-20] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:50:23,450  WARN [Worker-18] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:50:23,450  WARN [Worker-18] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:50:36,646  WARN [Worker-10] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:50:36,646  WARN [Worker-10] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:54:23,524  WARN [Worker-14] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:54:23,524  WARN [Worker-14] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:56:21,071  WARN [Worker-14] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:56:21,072  WARN [Worker-14] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 21:58:14,899  WARN [Worker-20] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 21:58:14,899  WARN [Worker-20] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:00:07,479  WARN [Worker-20] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:00:07,479  WARN [Worker-20] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:00:13,585  WARN [Worker-18] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:00:13,585  WARN [Worker-18] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:00:29,306  WARN [Worker-18] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:00:29,306  WARN [Worker-18] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:00:38,065  WARN [Worker-21] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:00:38,066  WARN [Worker-21] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:00:56,963  WARN [Worker-22] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:00:56,963  WARN [Worker-22] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:01:10,703  WARN [Worker-18] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:01:10,704  WARN [Worker-18] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:01:34,343  WARN [Worker-18] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:01:34,343  WARN [Worker-18] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:01:49,547  WARN [Worker-22] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:01:49,547  WARN [Worker-22] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:04:17,755  WARN [Worker-20] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:04:17,755  WARN [Worker-20] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:11:51,576  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:11:51,577  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:11:55,217 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.tools.nsc.interactive.FreshRunReq
+2015-05-09 22:11:55,219 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Incorrectly logged ControlThrowable: FreshRunReq(null)
+scala.tools.nsc.interactive.FreshRunReq
+2015-05-09 22:12:46,127 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:12:46,128 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:12:46,128 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:12:47,373  WARN [Worker-26] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:12:47,373  WARN [Worker-26] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:13:47,776  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:13:47,776  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:14:04,223  WARN [Worker-26] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:14:04,224  WARN [Worker-26] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:14:20,697  WARN [Worker-26] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:14:20,697  WARN [Worker-26] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:15:03,237  WARN [Worker-19] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:15:03,238  WARN [Worker-19] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:15:19,265  WARN [Worker-25] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:15:19,266  WARN [Worker-25] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:15:32,678  WARN [Worker-24] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:15:32,678  WARN [Worker-24] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:15:50,213  WARN [Worker-25] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:15:50,213  WARN [Worker-25] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:16:31,214  WARN [Worker-26] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:16:31,214  WARN [Worker-26] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:16:50,001  WARN [Worker-26] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:16:50,002  WARN [Worker-26] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:17:40,984  WARN [Worker-25] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:17:40,984  WARN [Worker-25] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:18:21,533  WARN [Worker-22] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:18:21,533  WARN [Worker-22] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:18:22,808 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:18:32,629  WARN [Worker-19] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:18:32,630  WARN [Worker-19] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:19:23,433  WARN [Worker-25] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:19:23,433  WARN [Worker-25] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:20:20,999  WARN [Worker-22] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:20:21,000  WARN [Worker-22] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:20:32,063  WARN [Worker-19] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:20:32,063  WARN [Worker-19] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:21:34,211  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:21:34,211  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:24:38,663  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:24:38,664  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:24:42,285  WARN [Worker-22] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:24:42,285  WARN [Worker-22] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:24:49,380  WARN [Worker-26] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:24:49,381  WARN [Worker-26] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:25:13,272  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:25:13,272  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:26:01,577  WARN [Worker-27] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:26:01,577  WARN [Worker-27] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:26:02,261 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.tools.nsc.interactive.FreshRunReq
+2015-05-09 22:26:02,262 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Incorrectly logged ControlThrowable: FreshRunReq(null)
+scala.tools.nsc.interactive.FreshRunReq
+2015-05-09 22:26:02,466  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-05-09 22:26:02,474  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-05-09 22:26:02,466  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-05-09 22:26:02,480  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-05-09 22:26:02,486  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-05-09 22:26:02,490  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-05-09 22:26:11,767  WARN [Worker-29] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:26:11,768  WARN [Worker-29] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:26:12,497  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-05-09 22:26:27,027  WARN [Worker-19] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:26:27,028  WARN [Worker-19] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:26:28,282 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.tools.nsc.interactive.FreshRunReq
+2015-05-09 22:26:28,295 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Incorrectly logged ControlThrowable: FreshRunReq(null)
+scala.tools.nsc.interactive.FreshRunReq
+2015-05-09 22:26:39,355  WARN [Worker-26] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:26:39,355  WARN [Worker-26] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:27:12,002  WARN [Worker-22] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:27:12,002  WARN [Worker-22] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:27:17,663  WARN [Worker-25] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:27:17,664  WARN [Worker-25] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:27:23,745  WARN [Worker-26] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:27:23,745  WARN [Worker-26] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:28:50,918 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:28:50,919 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:28:50,919 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:29:03,926  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:29:03,926  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:29:33,887  WARN [Worker-31] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:29:33,887  WARN [Worker-31] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:29:36,515 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:29:36,516 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:29:36,516 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:29:37,783  WARN [Worker-19] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:29:37,783  WARN [Worker-19] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:29:44,124  WARN [Worker-19] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:29:44,124  WARN [Worker-19] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:30:04,713  WARN [Worker-28] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:30:04,714  WARN [Worker-28] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:30:13,218  WARN [Worker-28] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:30:13,218  WARN [Worker-28] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:30:46,422  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:30:46,422  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:30:53,608  WARN [Worker-25] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:30:53,609  WARN [Worker-25] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:30:59,604  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:30:59,604  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:31:05,049  WARN [Worker-22] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:31:05,049  WARN [Worker-22] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:31:18,846  WARN [Worker-24] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:31:18,846  WARN [Worker-24] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:31:41,859  WARN [Worker-27] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:31:41,859  WARN [Worker-27] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:31:54,714  WARN [Worker-24] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:31:54,714  WARN [Worker-24] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:32:10,579  WARN [Worker-27] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:32:10,580  WARN [Worker-27] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:35:04,436  WARN [Worker-30] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:35:04,436  WARN [Worker-30] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:35:31,007  WARN [Worker-30] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:35:31,008  WARN [Worker-30] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:35:50,658  WARN [Worker-19] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:35:50,658  WARN [Worker-19] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:36:04,544  WARN [Worker-31] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:36:04,544  WARN [Worker-31] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:36:08,786  WARN [Worker-31] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:36:08,786  WARN [Worker-31] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:36:35,011  WARN [Worker-31] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:36:35,011  WARN [Worker-31] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:36:48,786  WARN [Worker-30] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:36:48,786  WARN [Worker-30] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:37:04,491  WARN [Worker-31] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:37:04,491  WARN [Worker-31] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:37:53,368  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:37:53,369  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:38:00,450  WARN [Worker-31] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:38:00,450  WARN [Worker-31] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:40:21,517  WARN [Worker-24] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:40:21,517  WARN [Worker-24] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:40:25,227  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:40:25,227  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.

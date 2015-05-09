@@ -1,0 +1,14 @@
+package virtuel
+
+
+class Arete {
+  
+  type virtualSommet <: Sommet;
+  type virtualArete <: Arete;
+  type virtualGraphe <:Graphe;
+  
+  var graphe: virtualGraphe
+  var nomArete : String = "Arete";
+  var sommet1 : virtualSommet
+  var sommet2 : virtualSommet
+}
