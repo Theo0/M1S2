@@ -1,21 +1,35 @@
+#include "includes.h"
+#include "Graphes.h"
+#include "Sommets.h"
+#include "Aretes.h"
+#include "Reseaux.h"
+#include "Noeuds.h"
+#include "Liens.h"
+#include "Molecules.h"
+#include "Atomes.h"
+#include "Liaisons.h"
 using namespace std;
 
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <set>
+int main( int argc, const char* argv[] )
+{
+    
+    Reseaux* res=new Reseaux();
+    Noeuds* n1=new Noeuds();
+    Noeuds* n2=new Noeuds();
+    Liens* l=new Liens();
+    res->addSommet(n1);
+    res->addSommet(n2);
+    res->addArete(l, n1, n2);
+    cout << res->toString() << endl;
 
-#include "sommet.h"
-#include "arete.h"
-#include "graphe.h"
-#include "grapheConc.cpp"
-#include "AreteConc.cpp"
-#include "sommetConc.cpp"
+    Molecules* mol=new Molecules();
+    Atomes* a1=new Atomes();
+    Atomes* a2=new Atomes();
+    Liaisons* ll=new Liaisons();
+    mol->addSommet(a1);
+    mol->addSommet(a2);
+    mol->addArete(ll, a1, a2);
+    cout << mol->toString() << endl;
 
-
-int main(){
-	GrapheConc* g = new GrapheConc();
-	SommetConc* s = new SommetConc();
-
-	g->ajoutSommet(s);
+	return 0;
 }
