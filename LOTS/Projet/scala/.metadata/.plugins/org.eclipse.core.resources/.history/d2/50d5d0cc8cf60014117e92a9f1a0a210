@@ -1,4 +1,4 @@
-package reseau
+package molecule
 import virtuel.Arete;
 import virtuel.Graphe;
 import virtuel.Sommet;
@@ -8,26 +8,29 @@ object numG{
   def inc = {current += 1; current}
 }
 
-class Reseau extends Graphe {
+class Molecule extends Graphe {
   
-  override type virtualGraphe = Reseau
-  override type virtualSommet = Noeud
-  override type virtualArete = Lien
+  override type virtualGraphe = Molecule
+  override type virtualSommet = Atome
+  override type virtualArete = Liaison
   
-    this.nomGraphe = "Reseau" + numG.inc;
+  def this(nom: String){
+    this()
+    nomGraphe = "Molecule" + numG.inc;
+  }
   
   
   override def afficherGraphe(){
-    System.out.println("Reseau : " + this.nomGraphe);
+    System.out.println("Molecule : " + this.nomGraphe);
     //Affichage des sommets
-    System.out.print("Liste des noeuds : " )
+    System.out.print("Liste des atomes : " )
     val it = listeSommets.iterator
     while(it.hasNext() ) {
      System.out.print(" " + it.next().getNom)
     }
     System.out.println("");
     //Affichage des aretes
-    System.out.print("Listes des liens : ");
+    System.out.print("Listes des liaisons : ");
     val j = listeAretes.iterator();
     while (j.hasNext()){
       

@@ -8,12 +8,12 @@ object numA{
   def inc = {current += 1; current}
 }
 
-class Liaison extends Arete{
-  
+class Atome extends Sommet{
+
   override type virtualGraphe = Molecule
   override type virtualSommet = Atome
   override type virtualArete = Liaison
   
-  this.nomArete = "Liaison" + numA.inc
-
+  this.nomSommet = "Atome" + numA.inc
+  
 }

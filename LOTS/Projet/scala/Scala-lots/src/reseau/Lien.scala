@@ -3,10 +3,17 @@ import virtuel.Arete;
 import virtuel.Graphe;
 import virtuel.Sommet;
 
+object numA{
+  var current = 0
+  def inc = {current += 1; current}
+}
+
 class Lien extends Arete{
   
   override type virtualGraphe = Reseau
   override type virtualSommet = Noeud
   override type virtualArete = Lien
+  
+  this.nomArete = "Lien" + numA.inc
 
 }

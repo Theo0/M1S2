@@ -14,10 +14,9 @@ class Molecule extends Graphe {
   override type virtualSommet = Atome
   override type virtualArete = Liaison
   
-  def this(nom: String){
-    this()
+  
     nomGraphe = "Molecule" + numG.inc;
-  }
+  
   
   
   override def afficherGraphe(){

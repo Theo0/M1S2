@@ -14,7 +14,10 @@ class Reseau extends Graphe {
   override type virtualSommet = Noeud
   override type virtualArete = Lien
   
+  def this(nom: String){
+    this()
     this.nomGraphe = "Reseau" + numG.inc;
+  }
   
   
   override def afficherGraphe(){

@@ -382,3 +382,46 @@ scala.tools.nsc.interactive.FreshRunReq
 2015-05-09 22:40:21,517  WARN [Worker-24] - ScalaProject - Project Scala-lots runs on platform default installation.
 2015-05-09 22:40:25,227  WARN [Worker-23] - ScalaProject - Project Scala-lots has platform default sourceLevel.
 2015-05-09 22:40:25,227  WARN [Worker-23] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:48:28,901 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-05-09 22:48:28,962 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-05-09 22:48:29,920  WARN [main] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:48:29,920  WARN [main] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:48:33,904 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-05-09 22:48:44,498 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:48:44,501 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:48:44,502 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:48:44,505 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:48:44,510 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-05-09 22:48:45,405 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-05-09 22:48:52,341  WARN [Worker-6] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:48:52,345  WARN [Worker-6] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:49:31,428  WARN [Worker-2] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:49:31,428  WARN [Worker-2] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:51:17,793  WARN [Worker-0] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:51:17,793  WARN [Worker-0] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:51:58,364  WARN [Worker-5] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:51:58,364  WARN [Worker-5] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:52:20,024  WARN [Worker-3] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:52:20,024  WARN [Worker-3] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:52:41,804  WARN [Worker-1] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:52:41,804  WARN [Worker-1] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:53:30,513  WARN [Worker-1] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:53:30,513  WARN [Worker-1] - ScalaProject - Project Scala-lots runs on platform default installation.
+2015-05-09 22:53:57,179  WARN [Worker-0] - ScalaProject - Project Scala-lots has platform default sourceLevel.
+2015-05-09 22:53:57,179  WARN [Worker-0] - ScalaProject - Project Scala-lots runs on platform default installation.
