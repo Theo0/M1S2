@@ -1,15 +1,25 @@
 #include "includes.h"
+<<<<<<< HEAD
 
+=======
+class Sommets;
+class Aretes;
+>>>>>>> origin/master
 using namespace std;
 
 #ifndef _Graphes
 #define _Graphes
 
+<<<<<<< HEAD
 template <class G,class S,class A>
+=======
+
+>>>>>>> origin/master
 class Graphes {
 public:
     string nom_graphe;
     static int num;
+<<<<<<< HEAD
     set<S*> sommets;
     set<A*> aretes;
     Graphes();
@@ -18,11 +28,22 @@ public:
 	void addSommet(S*);
 	A* deleteArete(A*);
 	S* deleteSommet(S*);
+=======
+    set<Sommets*> sommets;
+    set<Aretes*> aretes;
+    Graphes();
+    string toString();
+	void addArete(Aretes*,Sommets*,Sommets*);
+	void addSommet(Sommets*);
+	Aretes* deleteArete(Aretes*);
+	Sommets* deleteSommet(Sommets*);
+>>>>>>> origin/master
 	virtual ~Graphes();
 protected:
 	string listeSommets();
 	string listeAretes();
 private:
+<<<<<<< HEAD
     typename set<S*>::iterator itS;
     typename set<A*>::iterator itA;
 
@@ -133,4 +154,11 @@ S* Graphes<G, S, A>::deleteSommet(S* p_sommet){
 template <class G,class S,class A>
 Graphes<G, S, A>::~Graphes() {
 }
+=======
+    typename set<Sommets*>::iterator itS;
+    typename set<Aretes*>::iterator itA;
+
+};
+
+>>>>>>> origin/master
 #endif

@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 //Header et implémentation dans le même fichier
 
 #include "includes.h"
+=======
+#include "includes.h"
+class Sommets;
+class Graphes;
+
+>>>>>>> origin/master
 using namespace std;
 
 #ifndef _Aretes
 #define _Aretes
 
+<<<<<<< HEAD
 template <class G,class S,class A>
 class Aretes {
 public:
@@ -21,10 +29,28 @@ public:
 	void setSommets(S*);
     G* getArete_graphe();
 	void setArete_graphe(G*);
+=======
+
+class Aretes {
+public:
+    string nom_arete;
+	Graphes* arete_graphe;
+	Sommets* s1;
+	Sommets* s2;
+	static int num;
+
+    Aretes();
+    Aretes(Graphes*,Sommets*,Sommets*);
+    void setSommets(Sommets*,Sommets*);
+	void setSommets(Sommets*);
+    Graphes* getArete_graphe();
+	void setArete_graphe(Graphes*);
+>>>>>>> origin/master
 	string toString();
 	virtual ~Aretes();
 };
 
+<<<<<<< HEAD
 
 template <class G,class S,class A>
 int Aretes<G, S, A>::num;
@@ -73,4 +99,6 @@ Aretes<G,S,A>::~Aretes<G, S, A>() {
 }
 
 
+=======
+>>>>>>> origin/master
 #endif
