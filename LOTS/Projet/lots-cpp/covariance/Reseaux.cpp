@@ -17,11 +17,11 @@ void Reseaux::addSommet(Noeuds * p_somm){
 }
 
 Liens* Reseaux::deleteArete(Liens * p_aret){
-    return Graphes::deleteArete(p_aret);
+    //return Graphes::deleteArete(p_aret);
 }
 
 Noeuds* Reseaux::deleteSommet(Noeuds * p_somm){
-    return Graphes::deleteSommet(p_somm);
+    //return Graphes::deleteSommet(p_somm);
 }
 
 Reseaux::~Reseaux(){}
