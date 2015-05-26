@@ -20,6 +20,14 @@ abstract class Arete {
     return this.nomArete
   }
   
+  def getSommet1 : virtualSommet = {
+    return this.sommet1
+  }
+  
+  def getSommet2 : virtualSommet = {
+    return this.sommet2
+  }
+  
   def setSommets(s1 : virtualSommet, s2 : virtualSommet){
     this.sommet1 = s1;
     this.sommet2 = s2;
@@ -30,8 +38,7 @@ abstract class Arete {
   }
   
   def getNomSommetsLies: String = {
-    return ""
-    //TODO
+    return "(" + sommet1.getNom + " -> " + sommet2.getNom + ") "
   }
   
 }

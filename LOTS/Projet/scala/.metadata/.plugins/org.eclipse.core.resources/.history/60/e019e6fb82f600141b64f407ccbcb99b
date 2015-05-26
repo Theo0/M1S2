@@ -1,8 +1,0 @@
-package molecule
-import virtuel.Arete;
-import virtuel.Graphe;
-import virtuel.Sommet;
-
-class Liaison extends Graphe{
-
-}

@@ -6,9 +6,12 @@ import covariance.Sommet;
 
 
 public class Reseau extends Graph{
+	public static int num = 0;
 	
 	public Reseau(){
 		super();
+		num++;
+		this.nomGraphe = "Reseau" + num;
 	}
 	
 	public void ajouterSommet(Sommet s){

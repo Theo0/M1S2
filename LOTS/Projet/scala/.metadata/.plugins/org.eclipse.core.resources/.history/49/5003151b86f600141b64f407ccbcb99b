@@ -1,9 +1,0 @@
-package molecule
-
-class Atome {
-
-  override type virtualGraphe = Molecule
-  override type virtualSommet = Atome
-  override type virtualArete = Liaison
-  
-}

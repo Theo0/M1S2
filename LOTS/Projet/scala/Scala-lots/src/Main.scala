@@ -32,6 +32,21 @@ object Main {
     mol.afficherGraphe()
     res.afficherGraphe()
     
+    res.supprimerArete(li)
+    res.supprimerSommet(n2)
+    res.afficherGraphe()
+    
+    var mol2 = new Molecule()
+    var l3 = new Liaison()
+    var a3 = new Noeud()
+    var a4 = new Atome()
+    
+    /*CHIMERE
+    mol2.ajouterSommet(a3)
+    mol2.ajouterSommet(a4)
+    mol2.ajouterArete(l3, a3, a4)
+    mol2.afficherGraphe()*/
+    
   }
   
 }

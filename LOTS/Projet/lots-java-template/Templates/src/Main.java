@@ -34,7 +34,23 @@ public class Main {
 		r1.ajouterArete(l3, n1, n2);
 		
 		r1.afficherGraphe();
-	
+		
+		
+		////////////////////////////////////
+		
+		/*CHIMERE
+		Reseau r2 = new Reseau();
+		Noeud n3 = new Noeud();
+		Atome a5 = new Atome();
+		Lien l4 = new Lien();
+		
+		r2.ajouterSommet(n3);
+		r2.ajouterSommet(a5);
+		r2.ajouterArete(l4, n3, a5);
+		
+		r2.afficherGraphe();
+		*/
+		
 
 	}
 
