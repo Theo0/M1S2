@@ -9,7 +9,4 @@
 <fullyQualifiedTypeName name="covariance.Arete"/>
 <fullyQualifiedTypeName name="covariance.Chimie.Atome"/>
 <fullyQualifiedTypeName name="covariance.Chimie.Liaison"/>
-<fullyQualifiedTypeName name="covariance.Reseau.Reseau"/>
-<fullyQualifiedTypeName name="covariance.Reseau.Noeud"/>
-<fullyQualifiedTypeName name="covariance.Reseau.Lien"/>
 </qualifiedTypeNameHistroy>

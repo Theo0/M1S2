@@ -5,11 +5,7 @@
 #ifndef _Liaisons
 #define _Liaisons
 
-<<<<<<< HEAD
-class Liaisons:public Aretes<Molecules,Atomes,Liaisons>{
-=======
 class Liaisons:public Aretes{
->>>>>>> origin/master
 public:
     Liaisons();
     void setSommets(Atomes*,Atomes*);

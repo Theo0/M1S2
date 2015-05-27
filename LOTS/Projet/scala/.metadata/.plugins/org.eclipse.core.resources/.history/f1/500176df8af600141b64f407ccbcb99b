@@ -1,0 +1,13 @@
+package reseau
+import virtuel.Arete;
+import virtuel.Graphe;
+import virtuel.Sommet;
+
+class Reseau extends Graphe {
+  
+  override type virtualGraphe = Reseau
+  override type virtualSommet = Noeud
+  override type virtualArete = Lien
+
+  
+}

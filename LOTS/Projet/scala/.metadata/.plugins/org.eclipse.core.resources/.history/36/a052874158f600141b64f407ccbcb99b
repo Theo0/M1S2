@@ -1,0 +1,18 @@
+package virtuel
+
+object num{
+  private var current = 0
+  private def inc = {current += 1; current}
+}
+
+class Arete {
+  
+  type virtualSommet <: Sommet;
+  type virtualArete <: Arete;
+  type virtualGraphe <:Graphe;
+  
+  var graphe: virtualGraphe
+  var nomArete : Int =  num.inc;
+  var sommet1 : virtualSommet
+  var sommet2 : virtualSommet
+}

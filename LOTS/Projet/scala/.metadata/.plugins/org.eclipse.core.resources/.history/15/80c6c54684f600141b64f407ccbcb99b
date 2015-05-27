@@ -1,0 +1,10 @@
+package virtuel
+
+object numS{
+  var current = 0
+  def inc = {current += 1; current}
+}
+
+class Sommet {
+
+}

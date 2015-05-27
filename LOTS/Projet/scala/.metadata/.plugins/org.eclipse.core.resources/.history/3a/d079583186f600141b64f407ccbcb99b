@@ -1,0 +1,37 @@
+package virtuel
+
+object numA{
+  var current = 0
+  def inc = {current += 1; current}
+}
+
+abstract class Arete {
+  
+  type virtualSommet <: Sommet;
+  type virtualArete <: Arete;
+  type virtualGraphe <:Graphe;
+  
+  var graphe: virtualGraphe
+  var nomArete : String =  "Arete" + numA.inc;
+  var sommet1 : virtualSommet
+  var sommet2 : virtualSommet
+  
+  def getNom : String = {
+    return this.nomArete
+  }
+  
+  def setSommets(s1 : virtualSommet, s2 : virtualSommet){
+    this.sommet1 = s1;
+    this.sommet2 = s2;
+  }
+  
+  def setGraphe(g : virtualGraphe){
+    this.graphe = g
+  }
+  
+  def getNomSommetsLies: String = {
+    return ""
+    //TODO
+  }
+  
+}

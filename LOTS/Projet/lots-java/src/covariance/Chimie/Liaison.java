@@ -5,11 +5,9 @@ import covariance.Graph;
 import covariance.Sommet;
 
 public class Liaison extends Arete{
-	public static int num = 0;
+	
 	public Liaison(){
 		super();
-		num++;
-		this.nomArete = "Liaison" + num;
 	}
 	
 	public void setSommets(Sommet s1, Sommet s2){

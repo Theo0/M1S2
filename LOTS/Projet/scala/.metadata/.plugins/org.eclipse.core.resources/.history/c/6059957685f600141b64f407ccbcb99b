@@ -1,0 +1,32 @@
+package virtuel
+import java.util.ArrayList;
+
+object numS{
+  var current = 0
+  def inc = {current += 1; current}
+}
+
+abstract class Sommet {
+  
+  type virtualSommet <: Sommet;
+  type virtualArete <: Arete;
+  type virtualGraphe <:Graphe;
+  
+  var graphe: virtualGraphe
+  var nomSommet : String =  "Arete" + numS.inc;
+  var sommet1 : virtualSommet
+  var aretes = new  ArrayList[virtualArete]();
+  
+  def getNom: String ={
+    return this.nomSommet
+  }
+  
+  def setGraphe(g: virtualGraphe){
+    this.graphe = g;
+  }
+  
+  def getListeAretes: ArrayList[virtualArete] ={
+    return this.aretes
+  }
+  
+}

@@ -6,12 +6,8 @@ import covariance.Sommet;
 
 public class Atome extends Sommet {
 	
-	public static int num = 0;
-	
 	public Atome(){
 		super();
-		num++;
-		this.nomSommet = "Atome" + num;
 	}
 	
 	public void setGraphe(Graph g){

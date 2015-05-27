@@ -6,12 +6,8 @@ import covariance.Sommet;
 
 public class Noeud extends Sommet {
 	
-	public static int num = 0;
-	
 	public Noeud(){
 		super();
-		num++;
-		this.nomSommet = "Noeud" + num;
 	}
 	
 	public void setGraphe(Graph g){

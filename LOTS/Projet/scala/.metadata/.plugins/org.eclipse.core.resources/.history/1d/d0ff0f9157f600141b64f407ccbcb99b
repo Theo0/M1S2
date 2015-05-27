@@ -1,0 +1,7 @@
+package virtuel
+
+
+class Arete {
+  protected String nomArete
+  protected Graphe graphe
+}

@@ -31,8 +31,6 @@ int main( int argc, const char* argv[] )
     mol->ajouterArete(ll, a1, a2);
     cout << mol->toString() << endl;
 
-<<<<<<< HEAD
-=======
     /* CHIMERE
     Molecules* mol2 = new Molecules();
     Noeuds* a3 = new Noeuds();
@@ -43,6 +41,5 @@ int main( int argc, const char* argv[] )
     mol2->ajouterArete(lia, a3, a4);
     */
 
->>>>>>> origin/master
 	return 0;
 }

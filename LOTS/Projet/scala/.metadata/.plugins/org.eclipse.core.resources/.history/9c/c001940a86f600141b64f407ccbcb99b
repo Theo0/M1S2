@@ -1,0 +1,10 @@
+package molecule
+import virtuel.Arete;
+import virtuel.Graphe;
+import virtuel.Sommet;
+
+class Molecule extends Graphe {
+  
+  override type virtualGraphe = Molecule
+  
+}

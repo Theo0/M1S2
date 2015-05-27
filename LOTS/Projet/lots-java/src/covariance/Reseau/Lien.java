@@ -5,15 +5,13 @@ import covariance.Graph;
 import covariance.Sommet;
 
 public class Lien extends Arete{
-	public static int num = 0;
+	
 	public Lien(){
 		super();
-		num++;
-		this.nomArete = "Lien" + num;
 	}
 	
 	public void setSommets(Sommet s1, Sommet s2){
-		if((s1 instanceof Noeud && s2 instanceof Noeud) || (s1 == null && s2 == null)){
+		if(s1 instanceof Noeud && s2 instanceof Noeud){
 			setSommets((Noeud)s1, (Noeud)s2);
 		}else{
 			System.out.println("ERREUR : On ne peut ajouter une liaison qu'a une molecule et des atomes");
@@ -25,7 +23,7 @@ public class Lien extends Arete{
 	}
 	
 	public void setGraphe(Graph g){
-		if(g instanceof Reseau || g == null){
+		if(g instanceof Reseau){
 			setGraphe((Reseau)g);
 		}
 		else{

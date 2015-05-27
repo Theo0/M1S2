@@ -5,12 +5,9 @@ import covariance.Graph;
 import covariance.Sommet;
 
 public class Molecule extends Graph{
-	public static int num = 0;
 	
 	public Molecule(){
 		super();
-		num++;
-		this.nomGraphe = "Molecule" + num;
 	}
 	
 	public void ajouterSommet(Sommet s){

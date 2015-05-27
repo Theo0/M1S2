@@ -1,11 +1,7 @@
 #include "Molecules.h"
 #include "Liaisons.h"
 
-<<<<<<< HEAD
-Molecules::Molecules():Graphes<Molecules,Atomes,Liaisons>(){}
-=======
 Molecules::Molecules():Graphes(){}
->>>>>>> origin/master
 
 string Molecules::toString(){
     return "Nom de la molécule :  "+Graphes::nom_graphe+", liste des Atomes : "+
@@ -20,15 +16,4 @@ void Molecules::ajouterSommet(Atomes * p_somm){
     Graphes::ajouterSommet(p_somm);
 }
 
-<<<<<<< HEAD
-Liaisons* Molecules::deleteArete(Liaisons * p_aret){
-    return Graphes::deleteArete(p_aret);
-}
-
-Atomes* Molecules::deleteSommet(Atomes * p_somm){
-    return Graphes::deleteSommet(p_somm);
-}
-
-=======
->>>>>>> origin/master
 Molecules::~Molecules(){}

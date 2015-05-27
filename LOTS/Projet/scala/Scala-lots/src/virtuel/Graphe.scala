@@ -1,6 +1,5 @@
 package virtuel
 import java.util.ArrayList;
-import scala.collection.JavaConversions._
 
 object numG{
   var current = 0
@@ -32,33 +31,11 @@ abstract class Graphe {
     }
     else{
       listeAretes.add(a)
-      s1.addArete(a.asInstanceOf[s1.virtualArete])
-      s2.addArete(a.asInstanceOf[s2.virtualArete])
-      a.setSommets(s1.asInstanceOf[a.virtualSommet], s2.asInstanceOf[a.virtualSommet])
-      a.setGraphe(this.asInstanceOf[a.virtualGraphe])
+    //TODO
       }
   }
   
-  def supprimerSommet(s : virtualSommet){
-    if(listeSommets.contains(s)){
-      listeSommets.remove(s);     
-      for (ar <- listeAretes) {
-        if ((ar.getSommet1 == s) || (ar.getSommet2 == s)) {
-          listeAretes.remove(ar)
-        }
-      }
-    }
-   
-  }
-  
-  def supprimerArete(a : virtualArete){
-    this.listeAretes.remove(a)
-      for (som <- listeSommets) {
-        if (som.getListeAretes.contains(a)) {
-          som.removeArete(a.asInstanceOf[som.virtualArete])
-        }
-      }   
-  }
+  //TODO Suppression sommets et Arretes
   
   def afficherGraphe(){
     System.out.println("Graphe : " + this.nomGraphe);
@@ -76,7 +53,7 @@ abstract class Graphe {
       
       var ar : virtualArete = j.next()
       
-      System.out.print(" " + ar.getNom + " (" + ar.getNomSommetsLies + ")");
+      System.out.print(" " + ar.getNom + " " + ar.getNomSommetsLies);
 
     }
     
