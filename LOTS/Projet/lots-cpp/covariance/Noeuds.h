@@ -8,7 +8,7 @@
 class Noeuds:public Sommets{
 public:
     Noeuds();
-    void addArete(Liens*);
+    void ajouterArete(Liens*);
     virtual ~Noeuds();
 };
 

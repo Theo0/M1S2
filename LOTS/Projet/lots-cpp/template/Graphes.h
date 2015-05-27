@@ -14,8 +14,8 @@ public:
     set<A*> aretes;
     Graphes();
     string toString();
-	void addArete(A*,S*,S*);
-	void addSommet(S*);
+	void ajouterArete(A*,S*,S*);
+	void ajouterSommet(S*);
 	A* deleteArete(A*);
 	S* deleteSommet(S*);
 	virtual ~Graphes();
@@ -81,14 +81,14 @@ string Graphes<G, S, A>::listeAretes(){
 
 //Ajout arrête au graphe, on ajoute d'abord les sommets à l'arrête, puis les arrêtes au sommet, puis l'arete dans le graphe
 template <class G,class S,class A>
-void Graphes<G, S, A>::addArete(A* p_arete,S* p_s1,S* p_s2){
+void Graphes<G, S, A>::ajouterArete(A* p_arete,S* p_s1,S* p_s2){
 	if (p_arete->getArete_graphe()==NULL){
         p_arete->setArete_graphe(dynamic_cast<G*>(this));
     }
     p_s1->setSommet_dans(dynamic_cast<G*>(this));
 	p_s2->setSommet_dans(dynamic_cast<G*>(this));
-	p_s1->addArete(p_arete);
-	p_s2->addArete(p_arete);
+	p_s1->ajouterArete(p_arete);
+	p_s2->ajouterArete(p_arete);
     p_arete->setSommets(p_s1, p_s2);
     aretes.insert(p_arete);
     
@@ -97,7 +97,7 @@ void Graphes<G, S, A>::addArete(A* p_arete,S* p_s1,S* p_s2){
 
 //Ajout d'un sommet au graphe
 template <class G,class S,class A>
-void Graphes<G, S, A>::addSommet(S* p_sommets) {
+void Graphes<G, S, A>::ajouterSommet(S* p_sommets) {
 	if (p_sommets->getSommet_dans()==NULL){
         p_sommets->setSommet_dans(dynamic_cast<G*>(this));
     }

@@ -4,8 +4,8 @@
 Atomes::Atomes():Sommets(){}
 
 
-void Atomes::addArete(Liaisons * p_aret){
-    Sommets::addArete(p_aret);
+void Atomes::ajouterArete(Liaisons * p_aret){
+    Sommets::ajouterArete(p_aret);
 }
 
 Atomes::~Atomes(){}

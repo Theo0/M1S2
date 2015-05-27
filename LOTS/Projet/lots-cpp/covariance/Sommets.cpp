@@ -21,7 +21,7 @@ string Sommets::toString(){
 
 //Ajout d'une arrete 
 
-void Sommets::addArete(Aretes * p_arete){
+void Sommets::ajouterArete(Aretes * p_arete){
 	liste_aretes.insert(p_arete);
 }
 

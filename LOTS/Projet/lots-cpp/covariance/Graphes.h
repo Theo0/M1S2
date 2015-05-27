@@ -15,10 +15,8 @@ public:
     set<Aretes*> aretes;
     Graphes();
     string toString();
-	void addArete(Aretes*,Sommets*,Sommets*);
-	void addSommet(Sommets*);
-	Aretes* deleteArete(Aretes*);
-	Sommets* deleteSommet(Sommets*);
+	void ajouterArete(Aretes*,Sommets*,Sommets*);
+	void ajouterSommet(Sommets*);
 	virtual ~Graphes();
 protected:
 	string listeSommets();

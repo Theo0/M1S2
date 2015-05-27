@@ -12,8 +12,8 @@ public:
 
 	Molecules();
     string toString();
-	void addArete(Liaisons*,Atomes*,Atomes*);
-	void addSommet(Atomes*);
+	void ajouterArete(Liaisons*,Atomes*,Atomes*);
+	void ajouterSommet(Atomes*);
     Liaisons* deleteArete(Liaisons*);
     Atomes* deleteSommet(Atomes*);
     virtual ~Molecules();

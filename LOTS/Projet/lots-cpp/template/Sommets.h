@@ -14,7 +14,7 @@ public:
     typename set<A*>::iterator itAS;
 	static int num;
     Sommets();
-    void addArete(A*);
+    void ajouterArete(A*);
     G* getSommet_dans();
     void setSommet_dans(G*);
 	string toString();
@@ -42,7 +42,7 @@ string Sommets<G,S,A>::toString(){
 
 //Ajout d'une arrete 
 template <class G,class S,class A>
-void Sommets<G,S,A>::addArete(A* p_arete){
+void Sommets<G,S,A>::ajouterArete(A* p_arete){
 	liste_aretes.insert(p_arete);
 }
 

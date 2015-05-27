@@ -8,7 +8,7 @@
 class Atomes:public Sommets{
 public:
     Atomes();
-    void addArete(Liaisons*);
+    void ajouterArete(Liaisons*);
     virtual ~Atomes();
 };
 

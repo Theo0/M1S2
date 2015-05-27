@@ -17,18 +17,18 @@ int main( int argc, const char* argv[] )
     Noeuds* n1=new Noeuds();
     Noeuds* n2=new Noeuds();
     Liens* l=new Liens();
-    res->addSommet(n1);
-    res->addSommet(n2);
-    res->addArete(l, n1, n2);
+    res->ajouterSommet(n1);
+    res->ajouterSommet(n2);
+    res->ajouterArete(l, n1, n2);
     cout << res->toString() << endl;
 
     Molecules* mol=new Molecules();
     Atomes* a1=new Atomes();
     Atomes* a2=new Atomes();
     Liaisons* ll=new Liaisons();
-    mol->addSommet(a1);
-    mol->addSommet(a2);
-    mol->addArete(ll, a1, a2);
+    mol->ajouterSommet(a1);
+    mol->ajouterSommet(a2);
+    mol->ajouterArete(ll, a1, a2);
     cout << mol->toString() << endl;
 
     /* CHIMERE
@@ -36,9 +36,9 @@ int main( int argc, const char* argv[] )
     Noeuds* a3 = new Noeuds();
     Atomes* a4 = new Atomes();
     Liaisons* lia = new Liaisons();
-    mol2->addSommet(a3);
-    mol2->addSommet(a4);
-    mol2->addArete(lia, a3, a4);
+    mol2->ajouterSommet(a3);
+    mol2->ajouterSommet(a4);
+    mol2->ajouterArete(lia, a3, a4);
     */
 
 	return 0;

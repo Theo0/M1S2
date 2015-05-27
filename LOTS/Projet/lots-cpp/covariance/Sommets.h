@@ -16,7 +16,7 @@ public:
     typename set<Aretes*>::iterator itAS;
 	static int num;
     Sommets();
-    void addArete(Aretes*);
+    void ajouterArete(Aretes*);
     Graphes* getSommet_dans();
     void setSommet_dans(Graphes*);
 	string toString();

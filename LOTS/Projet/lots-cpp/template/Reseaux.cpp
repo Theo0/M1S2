@@ -8,12 +8,12 @@ string Reseaux::toString(){
     Graphes::listeSommets()+",et des liens : "+Graphes::listeAretes();
 }
 
-void Reseaux::addArete(Liens * p_arete, Noeuds * p_s1, Noeuds * p_s2){
-    Graphes::addArete(p_arete, p_s1, p_s2);
+void Reseaux::ajouterArete(Liens * p_arete, Noeuds * p_s1, Noeuds * p_s2){
+    Graphes::ajouterArete(p_arete, p_s1, p_s2);
 }
 
-void Reseaux::addSommet(Noeuds * p_somm){
-    Graphes::addSommet(p_somm);
+void Reseaux::ajouterSommet(Noeuds * p_somm){
+    Graphes::ajouterSommet(p_somm);
 }
 
 Liens* Reseaux::deleteArete(Liens * p_aret){

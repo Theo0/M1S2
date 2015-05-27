@@ -4,8 +4,8 @@
 Noeuds::Noeuds():Sommets(){}
 
 
-void Noeuds::addArete(Liens * p_aret){
-    Sommets::addArete(p_aret);
+void Noeuds::ajouterArete(Liens * p_aret){
+    Sommets::ajouterArete(p_aret);
 }
 
 Noeuds::~Noeuds(){}

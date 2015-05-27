@@ -8,12 +8,12 @@ string Molecules::toString(){
     Graphes::listeSommets()+",et des Liaisons : "+Graphes::listeAretes();
 }
 
-void Molecules::addArete(Liaisons * p_arete, Atomes * p_s1, Atomes * p_s2){
-    Graphes::addArete(p_arete, p_s1, p_s2);
+void Molecules::ajouterArete(Liaisons * p_arete, Atomes * p_s1, Atomes * p_s2){
+    Graphes::ajouterArete(p_arete, p_s1, p_s2);
 }
 
-void Molecules::addSommet(Atomes * p_somm){
-    Graphes::addSommet(p_somm);
+void Molecules::ajouterSommet(Atomes * p_somm){
+    Graphes::ajouterSommet(p_somm);
 }
 
 Liaisons* Molecules::deleteArete(Liaisons * p_aret){

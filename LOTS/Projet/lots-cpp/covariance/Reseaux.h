@@ -12,10 +12,8 @@ public:
 
 	Reseaux();
     string toString();
-	void addArete(Liens*,Noeuds*,Noeuds*);
-	void addSommet(Noeuds*);
-    Liens* deleteArete(Liens*);
-    Noeuds* deleteSommet(Noeuds*);
+	void ajouterArete(Liens*,Noeuds*,Noeuds*);
+	void ajouterSommet(Noeuds*);
     virtual ~Reseaux();
 };
 
