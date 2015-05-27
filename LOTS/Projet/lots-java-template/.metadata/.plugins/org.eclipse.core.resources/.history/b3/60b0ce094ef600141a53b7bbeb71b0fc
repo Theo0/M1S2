@@ -1,7 +1,0 @@
-package molecules;
-
-import graphe.*;
-
-public class Atome extends Graphe<Molecule,Atome,Liaison>{
-
-}

@@ -1,5 +1,0 @@
-package molecules;
-
-public class Molecules extends Graphes<Molecules,Atomes,Liaisons> {
-
-}
