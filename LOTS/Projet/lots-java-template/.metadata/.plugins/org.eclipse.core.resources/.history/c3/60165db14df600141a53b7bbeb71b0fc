@@ -1,0 +1,6 @@
+package molecules;
+import graphe.Graphe;
+
+public class Molecule extends Graphe<Molecule,Atome,Liaison> {
+
+}

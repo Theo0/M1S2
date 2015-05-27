@@ -1,0 +1,7 @@
+package molecules;
+
+import graphe.*;
+
+public class Liaison extends Arete<Molecule,Atome,Liaison>{
+
+}

@@ -1,0 +1,11 @@
+package reseau;
+
+import graphe.*;
+
+public class Noeud extends Sommet<Reseau,Noeud,Liaison>{
+
+	public Noeud(){
+		super();
+		this.nomSommet = "Atome" + num;
+	}
+}

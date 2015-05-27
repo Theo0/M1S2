@@ -1,0 +1,33 @@
+package molecules;
+import graphe.*;
+
+public class Molecule extends Graphe<Molecule, Atome, Liaison> {
+
+	public Molecule(){
+		super();
+	}
+	
+	public void ajouterSommet(Atome s) {
+		super.ajouterSommet(s);
+	}
+
+	public void ajouterArete(Liaison a, Atome s1, Atome s2) {
+		super.ajouterArete(a, s1, s2);
+	}
+
+	public void supprimerSommet(Atome s) {
+		super.supprimerSommet(s);
+	}
+
+	public void supprimerArete(Liaison a) {
+		super.supprimerArete(a);
+	}
+
+
+	public void afficherGraphe() {
+		super.afficherGraphe();
+	}
+
+
+
+}
